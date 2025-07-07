@@ -1,0 +1,163 @@
+{
+  "name": "supachat",
+  "type": "registry:block",
+  "title": "Supabase-Powered Realtime Chat",
+  "description": "Realtime chat system with full source control, Supabase realtime, admin panel, file uploads. emojis, and more.",
+  "author": "Bankk <https://bankkroll.xyz>",
+  "dependencies": [
+    "@supabase/supabase-js",
+    "@supabase/ssr",
+    "react-markdown",
+    "date-fns",
+    "lucide-react",
+    "clsx",
+    "tailwind-merge",
+    "zod",
+    "react-dropzone",
+    "emoji-datasource"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "card",
+    "avatar",
+    "badge",
+    "scroll-area",
+    "textarea",
+    "dropdown-menu",
+    "popover",
+    "separator",
+    "sheet"
+  ],
+  "files": [
+    {
+      "path": "registry/supachat/components/chat-widget.tsx",
+      "type": "registry:component",
+      "target": "~/components/supachat/chat-widget.tsx"
+    },
+    {
+      "path": "registry/supachat/components/admin-panel.tsx",
+      "type": "registry:component",
+      "target": "~/components/supachat/admin-panel.tsx"
+    },
+    {
+      "path": "registry/supachat/components/message-bubble.tsx",
+      "type": "registry:component",
+      "target": "~/components/supachat/message-bubble.tsx"
+    },
+    {
+      "path": "registry/supachat/components/typing-indicator.tsx",
+      "type": "registry:component",
+      "target": "~/components/supachat/typing-indicator.tsx"
+    },
+    {
+      "path": "registry/supachat/components/file-upload.tsx",
+      "type": "registry:component",
+      "target": "~/components/supachat/file-upload.tsx"
+    },
+    {
+      "path": "registry/supachat/components/emoji-picker.tsx",
+      "type": "registry:component",
+      "target": "~/components/supachat/emoji-picker.tsx"
+    },
+    {
+      "path": "registry/supachat/hooks/use-chat.ts",
+      "type": "registry:hook",
+      "target": "~/hooks/supachat/use-chat.ts"
+    },
+    {
+      "path": "registry/supachat/hooks/use-chat-status.ts",
+      "type": "registry:hook",
+      "target": "~/hooks/supachat/use-chat-status.ts"
+    },
+    {
+      "path": "registry/supachat/hooks/use-admin.ts",
+      "type": "registry:hook",
+      "target": "~/hooks/supachat/use-admin.ts"
+    },
+    {
+      "path": "registry/supachat/lib/types.ts",
+      "type": "registry:lib",
+      "target": "~/lib/supachat/types.ts"
+    },
+    {
+      "path": "registry/supachat/lib/config.ts",
+      "type": "registry:lib",
+      "target": "~/lib/supachat/config.ts"
+    },
+    {
+      "path": "registry/supachat/lib/utils.ts",
+      "type": "registry:lib",
+      "target": "~/lib/utils.ts"
+    },
+    {
+      "path": "registry/supachat/lib/supabase/client.ts",
+      "type": "registry:lib",
+      "target": "~/lib/supabase/client.ts"
+    },
+    {
+      "path": "registry/supachat/lib/supabase/server.ts",
+      "type": "registry:lib",
+      "target": "~/lib/supabase/server.ts"
+    },
+    {
+      "path": "registry/supachat/lib/supabase/middleware.ts",
+      "type": "registry:lib",
+      "target": "~/lib/supabase/middleware.ts"
+    },
+    {
+      "path": "registry/supachat/middleware.ts",
+      "type": "registry:file",
+      "target": "~/middleware.ts"
+    },
+    {
+      "path": "registry/supachat/migrations/supabase/supachat-schema.sql",
+      "type": "registry:file",
+      "target": "~/migrations/supabase/supachat-schema.sql"
+    },
+    {
+      "path": "registry/supachat/supachat-setup.md",
+      "type": "registry:file",
+      "target": "~/supachat-setup.md"
+    }
+  ],
+  "cssVars": {
+    "light": {
+      "chat-primary": "222.2 84% 4.9%",
+      "chat-primary-foreground": "210 40% 98%",
+      "chat-secondary": "210 40% 96%",
+      "chat-secondary-foreground": "222.2 84% 4.9%",
+      "chat-muted": "210 40% 96%",
+      "chat-muted-foreground": "215.4 16.3% 46.9%",
+      "chat-accent": "210 40% 96%",
+      "chat-accent-foreground": "222.2 84% 4.9%",
+      "chat-border": "214.3 31.8% 91.4%",
+      "chat-input": "0 0% 100%",
+      "chat-ring": "222.2 84% 4.9%"
+    },
+    "dark": {
+      "chat-primary": "210 40% 98%",
+      "chat-primary-foreground": "222.2 84% 4.9%",
+      "chat-secondary": "217.2 32.6% 17.5%",
+      "chat-secondary-foreground": "210 40% 98%",
+      "chat-muted": "217.2 32.6% 17.5%",
+      "chat-muted-foreground": "215 20.2% 65.1%",
+      "chat-accent": "217.2 32.6% 17.5%",
+      "chat-accent-foreground": "210 40% 98%",
+      "chat-border": "217.2 32.6% 17.5%",
+      "chat-input": "222.2 84% 4.9%",
+      "chat-ring": "212.7 26.8% 83.9%"
+    }
+  },
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🚀 SupaChat Installed!                             ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n📋 Quick Setup (3 steps):\n\n1️⃣ Database Setup\n   • Open your Supabase dashboard\n   • Go to SQL Editor\n   • Run: migrations/supabase/supachat-schema.sql\n\n2️⃣ Environment Configuration\n   • Create .env.local in your project root\n   • Add your Supabase keys:\n     NEXT_PUBLIC_SUPABASE_URL=your_url\n     NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key\n\n3️⃣ Component Integration\n   • Add <ChatWidget /> to your layout\n   • Create admin page with <AdminPanel />\n   • Middleware auto-protects admin routes\n\n🔗 Quick Links:\n   • Setup Guide: supachat-setup.md\n   • Documentation: https://supachat.site\n   • Open Source: https://github.com/bankkroll/supachat",
+  "categories": [
+    "chat",
+    "realtime",
+    "supabase",
+    "admin",
+    "messaging"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-07T22:58:59.306Z",
+  "publisher": "BankkRoll"
+}
