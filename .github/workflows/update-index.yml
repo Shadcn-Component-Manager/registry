@@ -1,0 +1,82 @@
+name: Update Registry Index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'components/**'
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Generate registry index
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            
+            const components = [];
+            const componentsDir = 'components';
+            
+            if (fs.existsSync(componentsDir)) {
+              const namespaces = fs.readdirSync(componentsDir);
+              
+              for (const namespace of namespaces) {
+                const namespacePath = path.join(componentsDir, namespace);
+                if (fs.statSync(namespacePath).isDirectory()) {
+                  const componentDirs = fs.readdirSync(namespacePath);
+                  
+                  for (const componentName of componentDirs) {
+                    const componentPath = path.join(namespacePath, componentName);
+                    if (fs.statSync(componentPath).isDirectory()) {
+                      const versions = fs.readdirSync(componentPath);
+                      const latestVersion = versions.sort().pop();
+                      
+                      if (latestVersion) {
+                        const registryPath = path.join(componentPath, latestVersion, 'registry.json');
+                        if (fs.existsSync(registryPath)) {
+                          try {
+                            const metadata = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+                            components.push({
+                              name: \`\${namespace}/\${componentName}\`,
+                              description: metadata.description || '',
+                              author: metadata.author || '',
+                              categories: metadata.categories || [],
+                              version: latestVersion,
+                              lastUpdated: new Date().toISOString()
+                            });
+                          } catch (error) {
+                            console.error(\`Error parsing \${registryPath}:\`, error.message);
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            
+            // Sort by last updated
+            components.sort((a, b) => new Date(b.lastUpdated) - new Date(a.lastUpdated));
+            
+            fs.writeFileSync('registry.json', JSON.stringify(components, null, 2));
+            console.log(\`Updated registry index with \${components.length} components\`);
+          "
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add registry.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update registry index"
+          git push
