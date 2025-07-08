@@ -1,6 +1,15 @@
 # Shadcn Component Manager Registry
 
+[![Components](https://img.shields.io/badge/Components-Community-brightgreen.svg)](https://github.com/Shadcn-Component-Manager/registry)
+[![Registry Status](https://img.shields.io/badge/Registry-Active-brightgreen.svg)](https://github.com/Shadcn-Component-Manager/registry)
+[![GitHub stars](https://img.shields.io/github/stars/Shadcn-Component-Manager/registry.svg?style=social&label=Star)](https://github.com/Shadcn-Component-Manager/registry)
+[![GitHub issues](https://img.shields.io/github/issues/Shadcn-Component-Manager/registry.svg)](https://github.com/Shadcn-Component-Manager/registry/issues)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 The official Registry for the Shadcn Component Manager (SCM). Central hub for sharing and discovering shadcn/ui components created by the community.
+
+> [!WARNING]
+> This registry can currently only be updated via the SCM CLI tool. Direct pull requests to this repository will be denied. Web interface for publishing is coming soon. Use the [CLI tool](https://github.com/Shadcn-Component-Manager/scm) to publish your components.
 
 ## Features
 
