@@ -1,14 +1,14 @@
 # Shadcn Component Manager Registry
 
-This repository contains the community component registry for [Shadcn Component Manager (SCM)](https://github.com/Shadcn-Component-Manager/scm). It serves as the central hub for sharing and discovering shadcn/ui components created by the community.
+The official Registry for the Shadcn Component Manager (SCM). Central hub for sharing and discovering shadcn/ui components created by the community.
 
 ## Features
 
-- **Component Registry**: Centralized storage for community-created shadcn/ui components
-- **CLI Tool**: Command-line interface for component management
-- **Auto-Generation**: Generate new components from existing shadcn/ui components
-- **Version Management**: Semantic versioning with automatic detection
-- **GitHub Integration**: Seamless publishing and installation workflows
+- Centralized storage for community-created shadcn/ui components
+- Command-line interface for component management
+- Auto-generation of new components from existing shadcn/ui components
+- Semantic versioning with automatic detection
+- GitHub integration for publishing and installation workflows
 
 ## Registry Structure
 
@@ -28,19 +28,19 @@ registry/
 └── .github/workflows/              # GitHub Actions for automation
 ```
 
-## How to Contribute Components
+## Publishing Components
 
-### CLI Tool Only
+The SCM CLI package is currently the primary way to publish components to this registry.
 
-**The SCM CLI package is the primary way to publish components to this registry.**
+### Publish from Existing shadcn/ui compatiable Components
 
-#### Option 1: Publish from Existing shadcn/ui Components
 ```bash
 # Publish your enhanced component
 scm publish
 ```
 
-#### Option 2: Create New Component
+### Create New Component
+
 ```bash
 # Install the CLI
 npm install -g @shadcn-component-manager/scm
@@ -58,17 +58,18 @@ scm create my-awesome-component
 scm publish
 ```
 
-### Generation Workflow
+### Workflow
 
-1. **Choose Base Component**: Select any existing shadcn/ui component or registry component
-2. **Generate Structure**: CLI creates a new component based on the selected base
-3. **Customize**: Modify, extend, and enhance the generated component
-4. **Validate**: SCM validates component structure and files
-5. **Publish**: Submit your component to the registry
+1. Choose base component from existing shadcn/ui or registry components
+2. Generate structure using CLI
+3. Customize, modify, extend, and enhance the component
+4. Validate component structure and files
+5. Submit component to the registry
 
-## How to Install Components
+## Installing Components
 
 ### Using the CLI
+
 ```bash
 # Install latest version
 scm add username/component-name
@@ -88,13 +89,13 @@ scm list
 
 ## Publishing Workflow
 
-1. **Component Creation**: Use `scm create` for new components or `scm generate` for existing-based components
-2. **Development**: Edit files and update metadata
-3. **Validation**: SCM validates component structure and files
-4. **Version Detection**: Automatic version bump based on file changes
-5. **GitHub Integration**: Creates branch and pull request
-6. **Review**: Maintainers review and merge the PR
-7. **Publication**: Component becomes available for installation
+1. Component creation using `scm create` for new components or `scm publish` for existing-based components
+2. Development and file editing with metadata updates
+3. Validation of component structure and files
+4. Automatic version detection based on file changes
+5. GitHub integration with branch creation and pull request
+6. Maintainer review and PR merge
+7. Component publication and availability for installation
 
 ## Reserved Component Names
 
@@ -103,20 +104,21 @@ Certain component names are reserved to avoid conflicts with shadcn/ui:
 - Utility components: `utils`, `use-mobile`, etc.
 - Theme components: `theme-daylight`, `theme-midnight`, etc.
 
-Use `scm create` or `scm generate` to check if your desired name is available.
+Use `scm create` or `scm publish` to check name availability.
 
 ## Contributing Guidelines
 
-1. **Follow shadcn/ui patterns**: Use consistent naming and structure
-2. **Include documentation**: Add comprehensive README.md with usage examples
-3. **Test thoroughly**: Ensure components work in different environments
-4. **Use semantic versioning**: Follow semver for version bumps
-5. **Add categories**: Help users discover your components
-6. **Leverage existing components**: Use `scm generate` to build upon existing work
+1. Follow shadcn/ui patterns with consistent naming and structure
+2. Include comprehensive README.md with usage examples
+3. Test thoroughly in different environments
+4. Use semantic versioning for version bumps
+5. Add categories to help users discover components
+6. Leverage existing components using `scm fork`
 
 ## Development
 
 ### Local Development
+
 ```bash
 # Clone the registry
 git clone https://github.com/Shadcn-Component-Manager/registry.git
@@ -127,35 +129,31 @@ npm install
 ```
 
 ### GitHub Actions
+
 The registry uses GitHub Actions for:
-- **Validation**: Check component structure and metadata
-- **Index Updates**: Auto-generate registry.json from components
-- **Quality Checks**: Ensure components meet standards
+- Validation of component structure and metadata
+- Auto-generation of registry.json from components
+- Quality checks to ensure components meet standards
 
 ## Troubleshooting
 
 ### Common Issues
 
 **Component Not Found**
-- Check the component exists in the registry
-- Verify the namespace/name format
-- Try refreshing the cache: `scm add component --force`
+- Check component exists in the registry
+- Verify namespace/name format
+- Try refreshing cache: `scm add component --force`
 
 **Publishing Fails**
-- Ensure you're authenticated: `scm login`
-- Check component validation: `scm publish` will show errors
-- Verify GitHub permissions for the registry repository
+- Ensure authentication: `scm login`
+- Check component validation: `scm publish` shows errors
+- Verify GitHub permissions for registry repository
 
 **Installation Issues**
-- Check shadcn/ui is set up: `npx shadcn@latest init`
+- Check shadcn/ui setup: `npx shadcn@latest init`
 - Verify components.json exists and is valid
 - Check for dependency conflicts
 
-**Generation Issues**
-- Verify the base component exists: `scm search component-name`
-- Check component name availability: `scm create --check component-name`
-- Ensure proper syntax: `scm generate new-name --from base-component`
-
 ## License
 
-This registry is licensed under the MIT License. Individual components retain their original licenses.
+MIT License - see LICENSE file for details. Individual components retain their original licenses.
