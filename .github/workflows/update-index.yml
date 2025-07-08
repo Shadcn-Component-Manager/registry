@@ -5,19 +5,29 @@ on:
     branches: [main]
     paths:
       - 'components/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'components/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight UTC
 
 jobs:
   update-index:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          fetch-depth: 0
           
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
           
       - name: Generate registry index
         run: |
@@ -74,9 +84,14 @@ jobs:
           "
           
       - name: Commit and push changes
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add registry.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update registry index"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update registry index [skip ci]"
+            git push
+          fi
