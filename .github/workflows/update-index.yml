@@ -16,18 +16,19 @@ on:
 jobs:
   update-index:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           fetch-depth: 0
           
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
           
       - name: Generate registry index
         run: |
@@ -93,5 +94,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update registry index [skip ci]"
-            git push
+            git push origin main
           fi

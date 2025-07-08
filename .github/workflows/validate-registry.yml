@@ -16,6 +16,9 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,10 +29,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
           
       - name: Install SCM CLI
-        run: npm install -g @shadcn-component-manager/scm
+        run: |
+          echo "Installing SCM CLI..."
+          npm install -g @shadcn-component-manager/scm || echo "SCM CLI not available yet, skipping installation"
         
       - name: Validate registry.json structure
         run: |
