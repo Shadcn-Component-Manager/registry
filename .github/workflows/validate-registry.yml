@@ -1,0 +1,70 @@
+name: Validate Registry
+
+on:
+  pull_request:
+    paths:
+      - 'components/**'
+      - 'registry.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install SCM CLI
+        run: npm install -g @shadcn-component-manager/scm
+        
+      - name: Validate registry.json
+        run: |
+          if [ -f "registry.json" ]; then
+            node -e "
+              const fs = require('fs');
+              const registry = JSON.parse(fs.readFileSync('registry.json', 'utf8'));
+              if (!Array.isArray(registry)) {
+                console.error('registry.json must be an array');
+                process.exit(1);
+              }
+              console.log('✅ registry.json is valid');
+            "
+          fi
+          
+      - name: Validate component structure
+        run: |
+          find components -name "registry.json" -exec sh -c '
+            echo "Validating $1"
+            node -e "
+              const fs = require(\"fs\");
+              const path = require(\"path\");
+              const componentPath = \"$1\";
+              const componentDir = path.dirname(componentPath);
+              const metadata = JSON.parse(fs.readFileSync(componentPath, \"utf8\"));
+              
+              // Validate required fields
+              const required = [\"name\", \"type\", \"title\", \"description\"];
+              for (const field of required) {
+                if (!metadata[field]) {
+                  console.error(\`Missing required field: \${field}\`);
+                  process.exit(1);
+                }
+              }
+              
+              // Validate files exist
+              if (metadata.files) {
+                for (const file of metadata.files) {
+                  const filePath = path.join(componentDir, file.path);
+                  if (!fs.existsSync(filePath)) {
+                    console.error(\`File not found: \${file.path}\`);
+                    process.exit(1);
+                  }
+                }
+              }
+              
+              console.log(\`✅ \${metadata.name} is valid\`);
+            "
+          ' _ {} \;
