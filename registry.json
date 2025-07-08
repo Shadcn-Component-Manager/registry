@@ -1,3 +1,16 @@
 [
-  
+  {
+    "name": "BankkRoll/supachat",
+    "description": "Realtime chat system with full source control, Supabase realtime, admin panel, file uploads. emojis, and more.",
+    "author": "Bankk <https://bankkroll.xyz>",
+    "categories": [
+      "chat",
+      "realtime",
+      "supabase",
+      "admin",
+      "messaging"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-08T19:36:34.164Z"
+  }
 ]
