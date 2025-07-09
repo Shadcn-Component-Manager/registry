@@ -1,17 +1,42 @@
 name: Component Publishing Pipeline
 
 on:
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      skip_validation:
+        description: 'Skip validation and just update index'
+        required: false
+        default: 'false'
+        type: boolean
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: 'false'
+        type: boolean
+  
+  # Direct pushes to main/develop
+  push:
+    branches: [main, develop]
+    paths:
+      - 'components/**'
+      - 'registry.json'
+  
+  # Pull requests (existing functionality)
   pull_request:
     branches: [main, develop]
     types: [opened, synchronize, reopened, closed]
 
 jobs:
-  # Job 1: Validate component structure and metadata
+  # Job 1: Validate component structure and metadata (skipped for manual runs with skip_validation=true)
   validate:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       pull-requests: read
+    if: |
+      github.event_name == 'workflow_dispatch' && github.event.inputs.skip_validation == 'true'
+      || github.event_name != 'workflow_dispatch'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -180,14 +205,16 @@ jobs:
             exit 1
           fi
 
-  # Job 2: Auto-merge when validation passes
+  # Job 2: Auto-merge when validation passes (only for PRs)
   auto-merge:
     needs: validate
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
-    if: github.event.action != 'closed'
+    if: |
+      github.event_name == 'pull_request' && 
+      github.event.action != 'closed'
     steps:
       - name: Setup GitHub CLI
         run: |
@@ -231,13 +258,16 @@ jobs:
         run: |
           gh pr comment ${{ github.event.pull_request.number }} --body "⚠️ Auto-merge blocked. Please check the validation status and resolve any issues."
 
-  # Job 3: Update registry index after merge
+  # Job 3: Update registry index
   update-index:
-    needs: validate
+    needs: [validate]
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -305,25 +335,51 @@ jobs:
           "
           echo "components_count=$(node -e "const fs = require('fs'); const registry = JSON.parse(fs.readFileSync('registry.json', 'utf8')); console.log(registry.length);")" >> $GITHUB_OUTPUT
           
+      - name: Check for changes
+        id: check-changes
+        run: |
+          git add registry.json
+          if git diff --staged --quiet && [ "${{ github.event.inputs.force_update }}" != "true" ]; then
+            echo "No changes detected in registry.json"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in registry.json"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+          
       - name: Commit and push changes
+        if: steps.check-changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add registry.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          
+          # Create commit message based on trigger type
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            COMMIT_MSG="chore: manually update registry index [skip ci]"
+          elif [ "${{ github.event_name }}" == "push" ]; then
+            COMMIT_MSG="chore: update registry index from direct push [skip ci]"
           else
-            git commit -m "chore: update registry index [skip ci]"
-            git push origin main
+            COMMIT_MSG="chore: update registry index after PR merge [skip ci]"
           fi
+          
+          git commit -m "$COMMIT_MSG"
+          git push origin main
+          echo "✅ Registry index updated and pushed"
+          
+      - name: No changes message
+        if: steps.check-changes.outputs.has_changes == 'false'
+        run: |
+          echo "ℹ️  No changes detected in registry.json - skipping commit"
 
-  # Job 4: Cleanup branches after merge
+  # Job 4: Cleanup branches after merge (only for PRs)
   cleanup:
-    needs: validate
+    needs: [validate]
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event_name == 'pull_request' && 
+      github.event.pull_request.merged == true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

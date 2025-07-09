@@ -1,0 +1,158 @@
+name: Update Registry Index
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: 'false'
+        type: boolean
+      commit_message:
+        description: 'Custom commit message (optional)'
+        required: false
+        default: 'chore: update registry index [skip ci]'
+        type: string
+  
+  # Direct pushes to main/develop that affect components
+  push:
+    branches: [main, develop]
+    paths:
+      - 'components/**'
+      - 'registry.json'
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Generate registry index
+        id: generate-index
+        run: |
+          echo "🔍 Scanning components directory..."
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            
+            const components = [];
+            const componentsDir = 'components';
+            
+            if (fs.existsSync(componentsDir)) {
+              const namespaces = fs.readdirSync(componentsDir);
+              console.log(\`Found \${namespaces.length} namespace(s)\`);
+              
+              for (const namespace of namespaces) {
+                const namespacePath = path.join(componentsDir, namespace);
+                if (fs.statSync(namespacePath).isDirectory()) {
+                  const componentDirs = fs.readdirSync(namespacePath);
+                  console.log(\`  Namespace '\${namespace}': \${componentDirs.length} component(s)\`);
+                  
+                  for (const componentName of componentDirs) {
+                    const componentPath = path.join(namespacePath, componentName);
+                    if (fs.statSync(componentPath).isDirectory()) {
+                      const versions = fs.readdirSync(componentPath);
+                      const latestVersion = versions.sort().pop();
+                      
+                      if (latestVersion) {
+                        const registryPath = path.join(componentPath, latestVersion, 'registry.json');
+                        if (fs.existsSync(registryPath)) {
+                          try {
+                            const metadata = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+                            components.push({
+                              name: \`\${namespace}/\${componentName}\`,
+                              description: metadata.description || '',
+                              author: metadata.author || '',
+                              categories: metadata.categories || [],
+                              version: latestVersion,
+                              lastUpdated: new Date().toISOString()
+                            });
+                            console.log(\`    ✅ \${namespace}/\${componentName}@\${latestVersion}\`);
+                          } catch (error) {
+                            console.error(\`    ❌ Error parsing \${registryPath}:\`, error.message);
+                          }
+                        } else {
+                          console.log(\`    ⚠️  No registry.json found for \${namespace}/\${componentName}@\${latestVersion}\`);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            } else {
+              console.log('No components directory found');
+            }
+            
+            // Sort by last updated
+            components.sort((a, b) => new Date(b.lastUpdated) - new Date(a.lastUpdated));
+            
+            // Write the registry index
+            fs.writeFileSync('registry.json', JSON.stringify(components, null, 2));
+            console.log(\`\\n📝 Updated registry index with \${components.length} components\`);
+          "
+          echo "components_count=$(node -e "const fs = require('fs'); const registry = JSON.parse(fs.readFileSync('registry.json', 'utf8')); console.log(registry.length);")" >> $GITHUB_OUTPUT
+          
+      - name: Check for changes
+        id: check-changes
+        run: |
+          git add registry.json
+          if git diff --staged --quiet && [ "${{ github.event.inputs.force_update }}" != "true" ]; then
+            echo "No changes detected in registry.json"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in registry.json"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Use custom commit message if provided, otherwise generate based on trigger
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ] && [ "${{ github.event.inputs.commit_message }}" != "chore: update registry index [skip ci]" ]; then
+            COMMIT_MSG="${{ github.event.inputs.commit_message }}"
+          elif [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            COMMIT_MSG="chore: manually update registry index [skip ci]"
+          elif [ "${{ github.event_name }}" == "push" ]; then
+            COMMIT_MSG="chore: update registry index from direct push [skip ci]"
+          else
+            COMMIT_MSG="chore: update registry index [skip ci]"
+          fi
+          
+          git commit -m "$COMMIT_MSG"
+          git push origin main
+          echo "✅ Registry index updated and pushed"
+          echo "📊 Total components: ${{ steps.generate-index.outputs.components_count }}"
+          
+      - name: No changes message
+        if: steps.check-changes.outputs.has_changes == 'false'
+        run: |
+          echo "ℹ️  No changes detected in registry.json - skipping commit"
+          echo "📊 Current components: ${{ steps.generate-index.outputs.components_count }}"
+          
+      - name: Summary
+        run: |
+          echo "## Registry Index Update Summary"
+          echo ""
+          echo "- **Trigger**: ${{ github.event_name }}"
+          echo "- **Components found**: ${{ steps.generate-index.outputs.components_count }}"
+          if [ "${{ steps.check-changes.outputs.has_changes }}" == "true" ]; then
+            echo "- **Status**: ✅ Updated and committed"
+          else
+            echo "- **Status**: ℹ️  No changes detected"
+          fi
+          echo ""
+          echo "Registry index is now up to date!" 
