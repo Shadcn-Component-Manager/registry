@@ -1,0 +1,30 @@
+{
+  "name": "alert-dialog-demo",
+  "type": "registry:example",
+  "title": "Alert dialog demo",
+  "description": "Official shadcn/ui alert-dialog-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "alert-dialog",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/alert-dialog-demo/examples/alert-dialog-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/alert-dialog-demo/alert-dialog-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 alert-dialog-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/alert-dialog-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/alert-dialog-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:00.759Z",
+  "publisher": "shadcn"
+}

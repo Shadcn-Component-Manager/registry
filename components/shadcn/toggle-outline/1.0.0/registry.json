@@ -1,0 +1,29 @@
+{
+  "name": "toggle-outline",
+  "type": "registry:example",
+  "title": "Toggle outline",
+  "description": "Official shadcn/ui toggle-outline example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "toggle"
+  ],
+  "files": [
+    {
+      "path": "registry/toggle-outline/examples/toggle-outline.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/toggle-outline/toggle-outline.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 toggle-outline Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/toggle-outline\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/toggle-outline",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:24.052Z",
+  "publisher": "shadcn"
+}

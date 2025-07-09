@@ -1,0 +1,28 @@
+{
+  "name": "calendar-21",
+  "type": "registry:block",
+  "title": "Calendar 21",
+  "description": "Custom days and formatters",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-21/blocks/calendar-21.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-21/calendar-21.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-21 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-21\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-21",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:43.037Z",
+  "publisher": "shadcn"
+}

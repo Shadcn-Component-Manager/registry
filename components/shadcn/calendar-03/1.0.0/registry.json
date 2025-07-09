@@ -1,0 +1,28 @@
+{
+  "name": "calendar-03",
+  "type": "registry:block",
+  "title": "Calendar 03",
+  "description": "Multiple months with multiple selection.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-03/blocks/calendar-03.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-03/calendar-03.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-03 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-03\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-03",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:39.511Z",
+  "publisher": "shadcn"
+}

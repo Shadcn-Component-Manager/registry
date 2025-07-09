@@ -1,0 +1,30 @@
+{
+  "name": "combobox-popover",
+  "type": "registry:example",
+  "title": "Combobox popover",
+  "description": "Official shadcn/ui combobox-popover example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "combobox",
+    "popover"
+  ],
+  "files": [
+    {
+      "path": "registry/combobox-popover/examples/combobox-popover.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/combobox-popover/combobox-popover.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 combobox-popover Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/combobox-popover\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/combobox-popover",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:09.213Z",
+  "publisher": "shadcn"
+}

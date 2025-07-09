@@ -1,0 +1,30 @@
+{
+  "name": "drawer-dialog",
+  "type": "registry:example",
+  "title": "Drawer dialog",
+  "description": "Official shadcn/ui drawer-dialog example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "drawer",
+    "dialog"
+  ],
+  "files": [
+    {
+      "path": "registry/drawer-dialog/examples/drawer-dialog.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/drawer-dialog/drawer-dialog.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 drawer-dialog Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/drawer-dialog\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/drawer-dialog",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:11.748Z",
+  "publisher": "shadcn"
+}

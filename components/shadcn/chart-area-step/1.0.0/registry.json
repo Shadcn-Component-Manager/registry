@@ -1,0 +1,29 @@
+{
+  "name": "chart-area-step",
+  "type": "registry:block",
+  "title": "Chart area step",
+  "description": "Official shadcn/ui chart-area-step block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-area-step/charts/chart-area-step.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-area-step/chart-area-step.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-area-step Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-area-step\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-area-step",
+  "categories": [
+    "charts",
+    "charts-area"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:47.167Z",
+  "publisher": "shadcn"
+}

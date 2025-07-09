@@ -1,0 +1,36 @@
+{
+  "name": "sidebar-11",
+  "type": "registry:block",
+  "title": "Sidebar 11",
+  "description": "A sidebar with a collapsible file tree.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "separator",
+    "collapsible"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-11/blocks/sidebar-11/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-11/blocks/sidebar-11/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-11/app-sidebar.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-11 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-11\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-11",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:36.970Z",
+  "publisher": "shadcn"
+}

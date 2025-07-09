@@ -1,0 +1,29 @@
+{
+  "name": "tabs-demo",
+  "type": "registry:example",
+  "title": "Tabs demo",
+  "description": "Official shadcn/ui tabs-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "tabs"
+  ],
+  "files": [
+    {
+      "path": "registry/tabs-demo/examples/tabs-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/tabs-demo/tabs-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 tabs-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/tabs-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/tabs-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:20.775Z",
+  "publisher": "shadcn"
+}

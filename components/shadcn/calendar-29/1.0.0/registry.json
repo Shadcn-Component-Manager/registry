@@ -1,0 +1,34 @@
+{
+  "name": "calendar-29",
+  "type": "registry:block",
+  "title": "Calendar 29",
+  "description": "Natural language date picker",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "chrono-node"
+  ],
+  "registryDependencies": [
+    "calendar",
+    "input",
+    "label",
+    "popover",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-29/blocks/calendar-29.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-29/calendar-29.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-29 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-29\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-29",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:44.601Z",
+  "publisher": "shadcn"
+}

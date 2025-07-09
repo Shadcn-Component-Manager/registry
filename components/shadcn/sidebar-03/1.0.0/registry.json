@@ -1,0 +1,34 @@
+{
+  "name": "sidebar-03",
+  "type": "registry:block",
+  "title": "Sidebar 03",
+  "description": "A sidebar with submenus.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-03/blocks/sidebar-03/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-03/blocks/sidebar-03/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-03/app-sidebar.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-03 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-03\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-03",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:35.564Z",
+  "publisher": "shadcn"
+}

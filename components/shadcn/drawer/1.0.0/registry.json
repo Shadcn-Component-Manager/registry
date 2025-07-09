@@ -1,0 +1,30 @@
+{
+  "name": "drawer",
+  "type": "registry:ui",
+  "title": "Drawer",
+  "description": "Official shadcn/ui drawer ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "vaul",
+    "@radix-ui/react-dialog"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/drawer/ui/drawer.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/drawer.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 drawer Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/drawer\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/drawer",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:30.354Z",
+  "publisher": "shadcn"
+}

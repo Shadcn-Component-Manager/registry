@@ -1,0 +1,30 @@
+{
+  "name": "dropdown-menu-radio-group",
+  "type": "registry:example",
+  "title": "Dropdown menu radio group",
+  "description": "Official shadcn/ui dropdown-menu-radio-group example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "dropdown-menu",
+    "radio-group"
+  ],
+  "files": [
+    {
+      "path": "registry/dropdown-menu-radio-group/examples/dropdown-menu-radio-group.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/dropdown-menu-radio-group/dropdown-menu-radio-group.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 dropdown-menu-radio-group Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/dropdown-menu-radio-group\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/dropdown-menu-radio-group",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:12.344Z",
+  "publisher": "shadcn"
+}

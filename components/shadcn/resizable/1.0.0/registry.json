@@ -1,0 +1,29 @@
+{
+  "name": "resizable",
+  "type": "registry:ui",
+  "title": "Resizable",
+  "description": "Official shadcn/ui resizable ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "react-resizable-panels"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/resizable/ui/resizable.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/resizable.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 resizable Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/resizable\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/resizable",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:32.438Z",
+  "publisher": "shadcn"
+}

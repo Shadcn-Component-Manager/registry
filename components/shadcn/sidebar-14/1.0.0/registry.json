@@ -1,0 +1,34 @@
+{
+  "name": "sidebar-14",
+  "type": "registry:block",
+  "title": "Sidebar 14",
+  "description": "A sidebar on the right.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-14/blocks/sidebar-14/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-14/blocks/sidebar-14/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-14/app-sidebar.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-14 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-14\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-14",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:37.560Z",
+  "publisher": "shadcn"
+}

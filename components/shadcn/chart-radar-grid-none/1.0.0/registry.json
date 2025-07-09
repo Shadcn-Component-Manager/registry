@@ -1,0 +1,29 @@
+{
+  "name": "chart-radar-grid-none",
+  "type": "registry:block",
+  "title": "Chart radar grid none",
+  "description": "Official shadcn/ui chart-radar-grid-none block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-radar-grid-none/charts/chart-radar-grid-none.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-radar-grid-none/chart-radar-grid-none.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-radar-grid-none Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-radar-grid-none\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-radar-grid-none",
+  "categories": [
+    "charts",
+    "charts-radar"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:54.818Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "chart-pie-donut-text",
+  "type": "registry:block",
+  "title": "Chart pie donut text",
+  "description": "Official shadcn/ui chart-pie-donut-text block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-pie-donut-text/charts/chart-pie-donut-text.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-pie-donut-text/chart-pie-donut-text.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-pie-donut-text Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-pie-donut-text\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-pie-donut-text",
+  "categories": [
+    "charts",
+    "charts-pie"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:51.434Z",
+  "publisher": "shadcn"
+}

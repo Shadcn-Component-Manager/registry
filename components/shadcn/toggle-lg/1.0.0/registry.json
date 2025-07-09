@@ -1,0 +1,29 @@
+{
+  "name": "toggle-lg",
+  "type": "registry:example",
+  "title": "Toggle lg",
+  "description": "Official shadcn/ui toggle-lg example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "toggle"
+  ],
+  "files": [
+    {
+      "path": "registry/toggle-lg/examples/toggle-lg.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/toggle-lg/toggle-lg.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 toggle-lg Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/toggle-lg\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/toggle-lg",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:23.863Z",
+  "publisher": "shadcn"
+}

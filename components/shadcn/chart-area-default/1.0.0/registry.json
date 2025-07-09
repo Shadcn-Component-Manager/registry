@@ -1,0 +1,29 @@
+{
+  "name": "chart-area-default",
+  "type": "registry:block",
+  "title": "Chart area default",
+  "description": "Official shadcn/ui chart-area-default block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-area-default/charts/chart-area-default.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-area-default/chart-area-default.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-area-default Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-area-default\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-area-default",
+  "categories": [
+    "charts",
+    "charts-area"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:45.594Z",
+  "publisher": "shadcn"
+}

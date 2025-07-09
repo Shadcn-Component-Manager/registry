@@ -1,0 +1,45 @@
+{
+  "name": "sidebar-09",
+  "type": "registry:block",
+  "title": "Sidebar 09",
+  "description": "Collapsible nested sidebars.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "separator",
+    "collapsible",
+    "dropdown-menu",
+    "avatar",
+    "switch",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-09/blocks/sidebar-09/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-09/blocks/sidebar-09/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-09/app-sidebar.tsx"
+    },
+    {
+      "path": "registry/sidebar-09/blocks/sidebar-09/components/nav-user.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-09/nav-user.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-09 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-09\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-09",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:36.601Z",
+  "publisher": "shadcn"
+}

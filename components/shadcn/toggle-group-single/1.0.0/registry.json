@@ -1,0 +1,29 @@
+{
+  "name": "toggle-group-single",
+  "type": "registry:example",
+  "title": "Toggle group single",
+  "description": "Official shadcn/ui toggle-group-single example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "toggle-group"
+  ],
+  "files": [
+    {
+      "path": "registry/toggle-group-single/examples/toggle-group-single.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/toggle-group-single/toggle-group-single.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 toggle-group-single Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/toggle-group-single\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/toggle-group-single",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:23.140Z",
+  "publisher": "shadcn"
+}

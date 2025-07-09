@@ -1,0 +1,29 @@
+{
+  "name": "scroll-area-demo",
+  "type": "registry:example",
+  "title": "Scroll area demo",
+  "description": "Official shadcn/ui scroll-area-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "scroll-area"
+  ],
+  "files": [
+    {
+      "path": "registry/scroll-area-demo/examples/scroll-area-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/scroll-area-demo/scroll-area-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 scroll-area-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/scroll-area-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/scroll-area-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:17.478Z",
+  "publisher": "shadcn"
+}

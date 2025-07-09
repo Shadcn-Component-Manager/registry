@@ -1,0 +1,28 @@
+{
+  "name": "calendar-15",
+  "type": "registry:block",
+  "title": "Calendar 15",
+  "description": "With Week Numbers",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-15/blocks/calendar-15.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-15/calendar-15.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-15 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-15\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-15",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:41.903Z",
+  "publisher": "shadcn"
+}

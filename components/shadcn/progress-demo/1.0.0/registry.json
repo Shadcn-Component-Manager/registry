@@ -1,0 +1,29 @@
+{
+  "name": "progress-demo",
+  "type": "registry:example",
+  "title": "Progress demo",
+  "description": "Official shadcn/ui progress-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "progress"
+  ],
+  "files": [
+    {
+      "path": "registry/progress-demo/examples/progress-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/progress-demo/progress-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 progress-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/progress-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/progress-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:16.138Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,103 @@
+{
+  "name": "dashboard-01",
+  "type": "registry:block",
+  "title": "Dashboard 01",
+  "description": "A dashboard with sidebar, charts and data table.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "@dnd-kit/core",
+    "@dnd-kit/modifiers",
+    "@dnd-kit/sortable",
+    "@dnd-kit/utilities",
+    "@tanstack/react-table",
+    "zod",
+    "@tabler/icons-react"
+  ],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "separator",
+    "label",
+    "chart",
+    "card",
+    "select",
+    "tabs",
+    "table",
+    "toggle-group",
+    "badge",
+    "button",
+    "checkbox",
+    "dropdown-menu",
+    "drawer",
+    "input",
+    "avatar",
+    "sheet",
+    "sonner"
+  ],
+  "files": [
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/data.json",
+      "type": "registry:file",
+      "target": "~/data.json"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/app-sidebar.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/chart-area-interactive.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/chart-area-interactive.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/data-table.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/data-table.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/nav-documents.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/nav-documents.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/nav-main.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/nav-main.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/nav-secondary.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/nav-secondary.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/nav-user.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/nav-user.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/section-cards.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/section-cards.tsx"
+    },
+    {
+      "path": "registry/dashboard-01/blocks/dashboard-01/components/site-header.tsx",
+      "type": "registry:component",
+      "target": "~/components/dashboard-01/site-header.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 dashboard-01 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/dashboard-01\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/dashboard-01",
+  "categories": [
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:34.986Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "calendar-10",
+  "type": "registry:block",
+  "title": "Calendar 10",
+  "description": "Today button",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "card",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-10/blocks/calendar-10.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-10/calendar-10.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-10 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-10\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-10",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:40.961Z",
+  "publisher": "shadcn"
+}

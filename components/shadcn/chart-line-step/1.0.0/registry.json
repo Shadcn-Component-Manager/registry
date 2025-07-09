@@ -1,0 +1,29 @@
+{
+  "name": "chart-line-step",
+  "type": "registry:block",
+  "title": "Chart line step",
+  "description": "Official shadcn/ui chart-line-step block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-line-step/charts/chart-line-step.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-line-step/chart-line-step.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-line-step Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-line-step\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-line-step",
+  "categories": [
+    "charts",
+    "charts-line"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:50.993Z",
+  "publisher": "shadcn"
+}

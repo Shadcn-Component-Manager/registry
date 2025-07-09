@@ -1,0 +1,30 @@
+{
+  "name": "textarea-with-label",
+  "type": "registry:example",
+  "title": "Textarea with label",
+  "description": "Official shadcn/ui textarea-with-label example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "textarea",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/textarea-with-label/examples/textarea-with-label.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/textarea-with-label/textarea-with-label.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 textarea-with-label Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/textarea-with-label\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/textarea-with-label",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:21.758Z",
+  "publisher": "shadcn"
+}

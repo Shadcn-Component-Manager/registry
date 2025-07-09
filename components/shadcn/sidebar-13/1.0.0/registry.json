@@ -1,0 +1,36 @@
+{
+  "name": "sidebar-13",
+  "type": "registry:block",
+  "title": "Sidebar 13",
+  "description": "A sidebar in a dialog.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "button",
+    "dialog"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-13/blocks/sidebar-13/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-13/blocks/sidebar-13/components/settings-dialog.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-13/settings-dialog.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-13 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-13\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-13",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:37.364Z",
+  "publisher": "shadcn"
+}

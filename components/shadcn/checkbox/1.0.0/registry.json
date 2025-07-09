@@ -1,0 +1,29 @@
+{
+  "name": "checkbox",
+  "type": "registry:ui",
+  "title": "Checkbox",
+  "description": "Official shadcn/ui checkbox ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "@radix-ui/react-checkbox"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/checkbox/ui/checkbox.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/checkbox.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 checkbox Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/checkbox\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/checkbox",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:29.577Z",
+  "publisher": "shadcn"
+}

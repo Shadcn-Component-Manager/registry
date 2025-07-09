@@ -1,0 +1,29 @@
+{
+  "name": "data-table-demo",
+  "type": "registry:example",
+  "title": "Data table demo",
+  "description": "Official shadcn/ui data-table-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "data-table"
+  ],
+  "files": [
+    {
+      "path": "registry/data-table-demo/examples/data-table-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/data-table-demo/data-table-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 data-table-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/data-table-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/data-table-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:10.172Z",
+  "publisher": "shadcn"
+}

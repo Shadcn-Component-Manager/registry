@@ -1,0 +1,29 @@
+{
+  "name": "table-demo",
+  "type": "registry:example",
+  "title": "Table demo",
+  "description": "Official shadcn/ui table-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "table"
+  ],
+  "files": [
+    {
+      "path": "registry/table-demo/examples/table-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/table-demo/table-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 table-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/table-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/table-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:20.589Z",
+  "publisher": "shadcn"
+}

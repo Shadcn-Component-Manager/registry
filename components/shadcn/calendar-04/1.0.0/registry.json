@@ -1,0 +1,28 @@
+{
+  "name": "calendar-04",
+  "type": "registry:block",
+  "title": "Calendar 04",
+  "description": "Single month with range selection",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-04/blocks/calendar-04.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-04/calendar-04.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-04 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-04\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-04",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:39.699Z",
+  "publisher": "shadcn"
+}

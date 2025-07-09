@@ -1,0 +1,29 @@
+{
+  "name": "chart-pie-separator-none",
+  "type": "registry:block",
+  "title": "Chart pie separator none",
+  "description": "Official shadcn/ui chart-pie-separator-none block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-pie-separator-none/charts/chart-pie-separator-none.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-pie-separator-none/chart-pie-separator-none.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-pie-separator-none Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-pie-separator-none\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-pie-separator-none",
+  "categories": [
+    "charts",
+    "charts-pie"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:52.929Z",
+  "publisher": "shadcn"
+}

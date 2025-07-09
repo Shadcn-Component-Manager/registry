@@ -1,0 +1,30 @@
+{
+  "name": "chart-area-interactive",
+  "type": "registry:block",
+  "title": "Chart area interactive",
+  "description": "Official shadcn/ui chart-area-interactive block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart",
+    "select"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-area-interactive/charts/chart-area-interactive.tsx",
+      "type": "registry:component",
+      "target": "~/components/chart-area-interactive/chart-area-interactive.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-area-interactive Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-area-interactive\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-area-interactive",
+  "categories": [
+    "charts",
+    "charts-area"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:46.203Z",
+  "publisher": "shadcn"
+}

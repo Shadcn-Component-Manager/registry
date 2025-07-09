@@ -1,0 +1,29 @@
+{
+  "name": "checkbox-disabled",
+  "type": "registry:example",
+  "title": "Checkbox disabled",
+  "description": "Official shadcn/ui checkbox-disabled example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "files": [
+    {
+      "path": "registry/checkbox-disabled/examples/checkbox-disabled.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/checkbox-disabled/checkbox-disabled.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 checkbox-disabled Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/checkbox-disabled\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/checkbox-disabled",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:07.534Z",
+  "publisher": "shadcn"
+}

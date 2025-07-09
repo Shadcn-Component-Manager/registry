@@ -1,0 +1,29 @@
+{
+  "name": "chart-radar-icons",
+  "type": "registry:block",
+  "title": "Chart radar icons",
+  "description": "Official shadcn/ui chart-radar-icons block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-radar-icons/charts/chart-radar-icons.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-radar-icons/chart-radar-icons.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-radar-icons Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-radar-icons\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-radar-icons",
+  "categories": [
+    "charts",
+    "charts-radar"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:55.015Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "typography-h1",
+  "type": "registry:example",
+  "title": "Typography h1",
+  "description": "Official shadcn/ui typography-h1 example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/typography-h1/examples/typography-h1.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/typography-h1/typography-h1.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 typography-h1 Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/typography-h1\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/typography-h1",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:25.156Z",
+  "publisher": "shadcn"
+}

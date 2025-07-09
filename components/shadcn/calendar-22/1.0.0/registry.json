@@ -1,0 +1,31 @@
+{
+  "name": "calendar-22",
+  "type": "registry:block",
+  "title": "Calendar 22",
+  "description": "Date picker",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "popover",
+    "button",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-22/blocks/calendar-22.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-22/calendar-22.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-22 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-22\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-22",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:43.218Z",
+  "publisher": "shadcn"
+}

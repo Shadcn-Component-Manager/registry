@@ -1,0 +1,27 @@
+{
+  "name": "typography-p",
+  "type": "registry:example",
+  "title": "Typography p",
+  "description": "Official shadcn/ui typography-p example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/typography-p/examples/typography-p.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/typography-p/typography-p.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 typography-p Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/typography-p\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/typography-p",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:27.009Z",
+  "publisher": "shadcn"
+}

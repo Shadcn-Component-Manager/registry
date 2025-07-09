@@ -1,0 +1,29 @@
+{
+  "name": "dialog",
+  "type": "registry:ui",
+  "title": "Dialog",
+  "description": "Official shadcn/ui dialog ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "@radix-ui/react-dialog"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/dialog/ui/dialog.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/dialog.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 dialog Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/dialog\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/dialog",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:30.195Z",
+  "publisher": "shadcn"
+}

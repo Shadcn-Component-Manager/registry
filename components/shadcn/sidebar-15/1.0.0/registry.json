@@ -1,0 +1,85 @@
+{
+  "name": "sidebar-15",
+  "type": "registry:block",
+  "title": "Sidebar 15",
+  "description": "A left and right sidebar.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "separator",
+    "popover",
+    "collapsible",
+    "dropdown-menu",
+    "calendar",
+    "avatar"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/calendars.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/calendars.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/date-picker.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/date-picker.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-favorites.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/nav-favorites.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-main.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/nav-main.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-secondary.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/nav-secondary.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-user.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/nav-user.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-workspaces.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/nav-workspaces.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/sidebar-left.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/sidebar-left.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/sidebar-right.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/sidebar-right.tsx"
+    },
+    {
+      "path": "registry/sidebar-15/blocks/sidebar-15/components/team-switcher.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-15/team-switcher.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-15 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-15\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-15",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:37.812Z",
+  "publisher": "shadcn"
+}

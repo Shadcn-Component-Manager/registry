@@ -1,0 +1,29 @@
+{
+  "name": "chart-pie-label-custom",
+  "type": "registry:block",
+  "title": "Chart pie label custom",
+  "description": "Official shadcn/ui chart-pie-label-custom block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-pie-label-custom/charts/chart-pie-label-custom.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-pie-label-custom/chart-pie-label-custom.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-pie-label-custom Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-pie-label-custom\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-pie-label-custom",
+  "categories": [
+    "charts",
+    "charts-pie"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:52.056Z",
+  "publisher": "shadcn"
+}

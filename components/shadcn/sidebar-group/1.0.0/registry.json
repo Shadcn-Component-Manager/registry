@@ -1,0 +1,27 @@
+{
+  "name": "sidebar-group",
+  "type": "registry:internal",
+  "title": "Sidebar group",
+  "description": "Official shadcn/ui sidebar-group internal",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/sidebar-group/internal/sidebar-group.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-group/sidebar-group.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📦 sidebar-group Installed!                               ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-group",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:29.672Z",
+  "publisher": "shadcn"
+}

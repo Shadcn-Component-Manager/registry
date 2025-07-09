@@ -1,0 +1,31 @@
+{
+  "name": "carousel",
+  "type": "registry:ui",
+  "title": "Carousel",
+  "description": "Official shadcn/ui carousel ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "embla-carousel-react"
+  ],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/carousel/ui/carousel.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/carousel.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 carousel Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/carousel\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/carousel",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:29.270Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "chart-area-axes",
+  "type": "registry:block",
+  "title": "Chart area axes",
+  "description": "Official shadcn/ui chart-area-axes block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-area-axes/charts/chart-area-axes.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-area-axes/chart-area-axes.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-area-axes Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-area-axes\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-area-axes",
+  "categories": [
+    "charts",
+    "charts-area"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:45.409Z",
+  "publisher": "shadcn"
+}

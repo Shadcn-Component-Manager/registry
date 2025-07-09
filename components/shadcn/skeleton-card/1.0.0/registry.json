@@ -1,0 +1,29 @@
+{
+  "name": "skeleton-card",
+  "type": "registry:example",
+  "title": "Skeleton card",
+  "description": "Official shadcn/ui skeleton-card example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "skeleton"
+  ],
+  "files": [
+    {
+      "path": "registry/skeleton-card/examples/skeleton-card.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/skeleton-card/skeleton-card.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 skeleton-card Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/skeleton-card\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/skeleton-card",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:19.589Z",
+  "publisher": "shadcn"
+}

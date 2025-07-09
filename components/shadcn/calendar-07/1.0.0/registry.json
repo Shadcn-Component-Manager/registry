@@ -1,0 +1,28 @@
+{
+  "name": "calendar-07",
+  "type": "registry:block",
+  "title": "Calendar 07",
+  "description": "Range selection with minimum and maximum days",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-07/blocks/calendar-07.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-07/calendar-07.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-07 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-07\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-07",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:40.249Z",
+  "publisher": "shadcn"
+}

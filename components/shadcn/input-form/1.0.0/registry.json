@@ -1,0 +1,31 @@
+{
+  "name": "input-form",
+  "type": "registry:example",
+  "title": "Input form",
+  "description": "Official shadcn/ui input-form example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "input",
+    "button",
+    "form"
+  ],
+  "files": [
+    {
+      "path": "registry/input-form/examples/input-form.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/input-form/input-form.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 input-form Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/input-form\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/input-form",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:13.302Z",
+  "publisher": "shadcn"
+}

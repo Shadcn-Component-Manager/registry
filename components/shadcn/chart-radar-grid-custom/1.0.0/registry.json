@@ -1,0 +1,29 @@
+{
+  "name": "chart-radar-grid-custom",
+  "type": "registry:block",
+  "title": "Chart radar grid custom",
+  "description": "Official shadcn/ui chart-radar-grid-custom block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-radar-grid-custom/charts/chart-radar-grid-custom.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-radar-grid-custom/chart-radar-grid-custom.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-radar-grid-custom Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-radar-grid-custom\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-radar-grid-custom",
+  "categories": [
+    "charts",
+    "charts-radar"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:54.450Z",
+  "publisher": "shadcn"
+}

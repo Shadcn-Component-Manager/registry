@@ -1,0 +1,27 @@
+{
+  "name": "sidebar-menu-collapsible",
+  "type": "registry:internal",
+  "title": "Sidebar menu collapsible",
+  "description": "Official shadcn/ui sidebar-menu-collapsible internal",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/sidebar-menu-collapsible/internal/sidebar-menu-collapsible.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-menu-collapsible/sidebar-menu-collapsible.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📦 sidebar-menu-collapsible Installed!                               ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-menu-collapsible",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:30.927Z",
+  "publisher": "shadcn"
+}

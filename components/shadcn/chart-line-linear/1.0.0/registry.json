@@ -1,0 +1,29 @@
+{
+  "name": "chart-line-linear",
+  "type": "registry:block",
+  "title": "Chart line linear",
+  "description": "Official shadcn/ui chart-line-linear block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-line-linear/charts/chart-line-linear.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-line-linear/chart-line-linear.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-line-linear Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-line-linear\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-line-linear",
+  "categories": [
+    "charts",
+    "charts-line"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:50.596Z",
+  "publisher": "shadcn"
+}

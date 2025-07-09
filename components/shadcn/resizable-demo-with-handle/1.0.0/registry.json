@@ -1,0 +1,29 @@
+{
+  "name": "resizable-demo-with-handle",
+  "type": "registry:example",
+  "title": "Resizable demo with handle",
+  "description": "Official shadcn/ui resizable-demo-with-handle example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "resizable"
+  ],
+  "files": [
+    {
+      "path": "registry/resizable-demo-with-handle/examples/resizable-demo-with-handle.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/resizable-demo-with-handle/resizable-demo-with-handle.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 resizable-demo-with-handle Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/resizable-demo-with-handle\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/resizable-demo-with-handle",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:16.922Z",
+  "publisher": "shadcn"
+}

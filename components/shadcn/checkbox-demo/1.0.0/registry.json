@@ -1,0 +1,29 @@
+{
+  "name": "checkbox-demo",
+  "type": "registry:example",
+  "title": "Checkbox demo",
+  "description": "Official shadcn/ui checkbox-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "checkbox"
+  ],
+  "files": [
+    {
+      "path": "registry/checkbox-demo/examples/checkbox-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/checkbox-demo/checkbox-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 checkbox-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/checkbox-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/checkbox-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:07.349Z",
+  "publisher": "shadcn"
+}

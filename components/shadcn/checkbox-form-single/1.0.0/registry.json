@@ -1,0 +1,30 @@
+{
+  "name": "checkbox-form-single",
+  "type": "registry:example",
+  "title": "Checkbox form single",
+  "description": "Official shadcn/ui checkbox-form-single example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "checkbox",
+    "form"
+  ],
+  "files": [
+    {
+      "path": "registry/checkbox-form-single/examples/checkbox-form-single.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/checkbox-form-single/checkbox-form-single.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 checkbox-form-single Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/checkbox-form-single\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/checkbox-form-single",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:07.981Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "card-demo",
+  "type": "registry:example",
+  "title": "Card demo",
+  "description": "Official shadcn/ui card-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "button",
+    "switch"
+  ],
+  "files": [
+    {
+      "path": "registry/card-demo/examples/card-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/card-demo/card-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 card-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/card-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/card-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:05.738Z",
+  "publisher": "shadcn"
+}

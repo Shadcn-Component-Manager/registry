@@ -1,0 +1,29 @@
+{
+  "name": "progress",
+  "type": "registry:ui",
+  "title": "Progress",
+  "description": "Official shadcn/ui progress ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "@radix-ui/react-progress"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/progress/ui/progress.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/progress.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 progress Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/progress\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/progress",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:32.130Z",
+  "publisher": "shadcn"
+}

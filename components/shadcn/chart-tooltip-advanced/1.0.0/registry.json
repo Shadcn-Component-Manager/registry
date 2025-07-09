@@ -1,0 +1,29 @@
+{
+  "name": "chart-tooltip-advanced",
+  "type": "registry:block",
+  "title": "Chart tooltip advanced",
+  "description": "Official shadcn/ui chart-tooltip-advanced block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-tooltip-advanced/charts/chart-tooltip-advanced.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-tooltip-advanced/chart-tooltip-advanced.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-tooltip-advanced Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-tooltip-advanced\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-tooltip-advanced",
+  "categories": [
+    "charts",
+    "charts-tooltip"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:59.104Z",
+  "publisher": "shadcn"
+}

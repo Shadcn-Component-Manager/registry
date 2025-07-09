@@ -1,0 +1,29 @@
+{
+  "name": "chart-bar-horizontal",
+  "type": "registry:block",
+  "title": "Chart bar horizontal",
+  "description": "Official shadcn/ui chart-bar-horizontal block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-bar-horizontal/charts/chart-bar-horizontal.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-bar-horizontal/chart-bar-horizontal.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-bar-horizontal Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-bar-horizontal\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-bar-horizontal",
+  "categories": [
+    "charts",
+    "charts-bar"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:47.762Z",
+  "publisher": "shadcn"
+}

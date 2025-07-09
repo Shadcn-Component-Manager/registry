@@ -1,0 +1,30 @@
+{
+  "name": "calendar-31",
+  "type": "registry:block",
+  "title": "Calendar 31",
+  "description": "With event slots",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "card",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-31/blocks/calendar-31.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-31/calendar-31.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-31 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-31\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-31",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:45.012Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "calendar-24",
+  "type": "registry:block",
+  "title": "Calendar 24",
+  "description": "Date and Time picker",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "popover",
+    "button",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-24/blocks/calendar-24.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-24/calendar-24.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-24 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-24\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-24",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:43.639Z",
+  "publisher": "shadcn"
+}

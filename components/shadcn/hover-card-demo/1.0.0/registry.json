@@ -1,0 +1,29 @@
+{
+  "name": "hover-card-demo",
+  "type": "registry:example",
+  "title": "Hover card demo",
+  "description": "Official shadcn/ui hover-card-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "hover-card"
+  ],
+  "files": [
+    {
+      "path": "registry/hover-card-demo/examples/hover-card-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/hover-card-demo/hover-card-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 hover-card-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/hover-card-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/hover-card-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:12.530Z",
+  "publisher": "shadcn"
+}

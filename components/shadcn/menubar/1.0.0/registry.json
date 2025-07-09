@@ -1,0 +1,29 @@
+{
+  "name": "menubar",
+  "type": "registry:ui",
+  "title": "Menubar",
+  "description": "Official shadcn/ui menubar ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "@radix-ui/react-menubar"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/menubar/ui/menubar.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/menubar.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 menubar Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/menubar\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/menubar",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:31.488Z",
+  "publisher": "shadcn"
+}

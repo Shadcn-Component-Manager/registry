@@ -1,0 +1,70 @@
+{
+  "name": "sidebar-16",
+  "type": "registry:block",
+  "title": "Sidebar 16",
+  "description": "A sidebar with a sticky site header.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "separator",
+    "collapsible",
+    "dropdown-menu",
+    "avatar",
+    "button",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/app-sidebar.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-main.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/nav-main.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-projects.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/nav-projects.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-secondary.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/nav-secondary.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-user.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/nav-user.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/search-form.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/search-form.tsx"
+    },
+    {
+      "path": "registry/sidebar-16/blocks/sidebar-16/components/site-header.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-16/site-header.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-16 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-16\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-16",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:38.017Z",
+  "publisher": "shadcn"
+}

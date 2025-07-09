@@ -1,0 +1,29 @@
+{
+  "name": "chart-area-stacked",
+  "type": "registry:block",
+  "title": "Chart area stacked",
+  "description": "Official shadcn/ui chart-area-stacked block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-area-stacked/charts/chart-area-stacked.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-area-stacked/chart-area-stacked.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-area-stacked Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-area-stacked\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-area-stacked",
+  "categories": [
+    "charts",
+    "charts-area"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:46.963Z",
+  "publisher": "shadcn"
+}

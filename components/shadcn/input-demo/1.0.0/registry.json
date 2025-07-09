@@ -1,0 +1,29 @@
+{
+  "name": "input-demo",
+  "type": "registry:example",
+  "title": "Input demo",
+  "description": "Official shadcn/ui input-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "input"
+  ],
+  "files": [
+    {
+      "path": "registry/input-demo/examples/input-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/input-demo/input-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 input-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/input-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/input-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:12.710Z",
+  "publisher": "shadcn"
+}

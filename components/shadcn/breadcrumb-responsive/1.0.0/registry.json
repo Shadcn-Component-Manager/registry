@@ -1,0 +1,29 @@
+{
+  "name": "breadcrumb-responsive",
+  "type": "registry:example",
+  "title": "Breadcrumb responsive",
+  "description": "Official shadcn/ui breadcrumb-responsive example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "breadcrumb"
+  ],
+  "files": [
+    {
+      "path": "registry/breadcrumb-responsive/examples/breadcrumb-responsive.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/breadcrumb-responsive/breadcrumb-responsive.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 breadcrumb-responsive Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/breadcrumb-responsive\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/breadcrumb-responsive",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:03.216Z",
+  "publisher": "shadcn"
+}

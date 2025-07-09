@@ -1,0 +1,28 @@
+{
+  "name": "calendar-06",
+  "type": "registry:block",
+  "title": "Calendar 06",
+  "description": "Range selection with minimum days",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-06/blocks/calendar-06.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-06/calendar-06.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-06 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-06\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-06",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:40.054Z",
+  "publisher": "shadcn"
+}

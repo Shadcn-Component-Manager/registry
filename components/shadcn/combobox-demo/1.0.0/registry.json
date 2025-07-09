@@ -1,0 +1,29 @@
+{
+  "name": "combobox-demo",
+  "type": "registry:example",
+  "title": "Combobox demo",
+  "description": "Official shadcn/ui combobox-demo example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "command"
+  ],
+  "files": [
+    {
+      "path": "registry/combobox-demo/examples/combobox-demo.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/combobox-demo/combobox-demo.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 combobox-demo Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/combobox-demo\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/combobox-demo",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:08.601Z",
+  "publisher": "shadcn"
+}

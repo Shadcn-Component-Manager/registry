@@ -1,0 +1,31 @@
+{
+  "name": "calendar-16",
+  "type": "registry:block",
+  "title": "Calendar 16",
+  "description": "With time picker",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "card",
+    "input",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-16/blocks/calendar-16.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-16/calendar-16.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-16 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-16\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-16",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:42.083Z",
+  "publisher": "shadcn"
+}

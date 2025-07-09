@@ -1,0 +1,27 @@
+{
+  "name": "chart-bar-demo-tooltip",
+  "type": "registry:example",
+  "title": "Chart bar demo tooltip",
+  "description": "Official shadcn/ui chart-bar-demo-tooltip example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/chart-bar-demo-tooltip/examples/chart-bar-demo-tooltip.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/chart-bar-demo-tooltip/chart-bar-demo-tooltip.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 chart-bar-demo-tooltip Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-bar-demo-tooltip\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-bar-demo-tooltip",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:28.375Z",
+  "publisher": "shadcn"
+}

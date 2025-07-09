@@ -1,0 +1,29 @@
+{
+  "name": "input-otp-separator",
+  "type": "registry:example",
+  "title": "Input otp separator",
+  "description": "Official shadcn/ui input-otp-separator example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "input-otp"
+  ],
+  "files": [
+    {
+      "path": "registry/input-otp-separator/examples/input-otp-separator.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/input-otp-separator/input-otp-separator.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 input-otp-separator Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/input-otp-separator\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/input-otp-separator",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:14.514Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "sidebar-04",
+  "type": "registry:block",
+  "title": "Sidebar 04",
+  "description": "A floating sidebar with submenus.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sidebar",
+    "breadcrumb",
+    "separator"
+  ],
+  "files": [
+    {
+      "path": "registry/sidebar-04/blocks/sidebar-04/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/sidebar-04/blocks/sidebar-04/components/app-sidebar.tsx",
+      "type": "registry:component",
+      "target": "~/components/sidebar-04/app-sidebar.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 sidebar-04 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sidebar-04\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sidebar-04",
+  "categories": [
+    "sidebar",
+    "dashboard"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:35.739Z",
+  "publisher": "shadcn"
+}

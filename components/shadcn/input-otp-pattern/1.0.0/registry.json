@@ -1,0 +1,29 @@
+{
+  "name": "input-otp-pattern",
+  "type": "registry:example",
+  "title": "Input otp pattern",
+  "description": "Official shadcn/ui input-otp-pattern example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "input-otp"
+  ],
+  "files": [
+    {
+      "path": "registry/input-otp-pattern/examples/input-otp-pattern.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/input-otp-pattern/input-otp-pattern.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 input-otp-pattern Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/input-otp-pattern\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/input-otp-pattern",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:14.314Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "calendar-09",
+  "type": "registry:block",
+  "title": "Calendar 09",
+  "description": "Calendar with disabled weekends",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-09/blocks/calendar-09.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-09/calendar-09.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-09 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-09\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-09",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:40.763Z",
+  "publisher": "shadcn"
+}

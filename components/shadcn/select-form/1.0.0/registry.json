@@ -1,0 +1,29 @@
+{
+  "name": "select-form",
+  "type": "registry:example",
+  "title": "Select form",
+  "description": "Official shadcn/ui select-form example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "select"
+  ],
+  "files": [
+    {
+      "path": "registry/select-form/examples/select-form.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/select-form/select-form.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 select-form Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/select-form\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/select-form",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:18.282Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "calendar-12",
+  "type": "registry:block",
+  "title": "Calendar 12",
+  "description": "Localized calendar",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "card",
+    "select"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-12/blocks/calendar-12.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-12/calendar-12.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-12 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-12\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-12",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:41.345Z",
+  "publisher": "shadcn"
+}

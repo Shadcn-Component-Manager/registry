@@ -1,0 +1,31 @@
+{
+  "name": "calendar-25",
+  "type": "registry:block",
+  "title": "Calendar 25",
+  "description": "Date and Time range picker",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "popover",
+    "button",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-25/blocks/calendar-25.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-25/calendar-25.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-25 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-25\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-25",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:43.815Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "textarea-disabled",
+  "type": "registry:example",
+  "title": "Textarea disabled",
+  "description": "Official shadcn/ui textarea-disabled example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "textarea"
+  ],
+  "files": [
+    {
+      "path": "registry/textarea-disabled/examples/textarea-disabled.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/textarea-disabled/textarea-disabled.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 textarea-disabled Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/textarea-disabled\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/textarea-disabled",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:21.216Z",
+  "publisher": "shadcn"
+}

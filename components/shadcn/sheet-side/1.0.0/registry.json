@@ -1,0 +1,29 @@
+{
+  "name": "sheet-side",
+  "type": "registry:example",
+  "title": "Sheet side",
+  "description": "Official shadcn/ui sheet-side example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "sheet"
+  ],
+  "files": [
+    {
+      "path": "registry/sheet-side/examples/sheet-side.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/sheet-side/sheet-side.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 sheet-side Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/sheet-side\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sheet-side",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:19.154Z",
+  "publisher": "shadcn"
+}

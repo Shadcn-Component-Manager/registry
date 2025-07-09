@@ -1,0 +1,30 @@
+{
+  "name": "sonner",
+  "type": "registry:ui",
+  "title": "Sonner",
+  "description": "Official shadcn/ui sonner ui",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "sonner",
+    "next-themes"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/sonner/ui/sonner.tsx",
+      "type": "registry:ui",
+      "target": "~/components/ui/sonner.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🎨 sonner Installed!                              ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/components/sonner\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/sonner",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:33.688Z",
+  "publisher": "shadcn"
+}

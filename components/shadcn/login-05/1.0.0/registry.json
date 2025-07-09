@@ -1,0 +1,36 @@
+{
+  "name": "login-05",
+  "type": "registry:block",
+  "title": "Login 05",
+  "description": "A simple email-only login page.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "button",
+    "card",
+    "input",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/login-05/blocks/login-05/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/login-05/blocks/login-05/components/login-form.tsx",
+      "type": "registry:component",
+      "target": "~/components/login-05/login-form.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 login-05 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/login-05\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/login-05",
+  "categories": [
+    "authentication",
+    "login"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:38.920Z",
+  "publisher": "shadcn"
+}

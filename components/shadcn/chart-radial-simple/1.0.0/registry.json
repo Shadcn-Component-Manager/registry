@@ -1,0 +1,29 @@
+{
+  "name": "chart-radial-simple",
+  "type": "registry:block",
+  "title": "Chart radial simple",
+  "description": "Official shadcn/ui chart-radial-simple block",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "card",
+    "chart"
+  ],
+  "files": [
+    {
+      "path": "registry/chart-radial-simple/charts/chart-radial-simple.tsx",
+      "type": "registry:block",
+      "target": "~/components/chart-radial-simple/chart-radial-simple.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 chart-radial-simple Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/chart-radial-simple\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/chart-radial-simple",
+  "categories": [
+    "charts",
+    "charts-radial"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:56.841Z",
+  "publisher": "shadcn"
+}

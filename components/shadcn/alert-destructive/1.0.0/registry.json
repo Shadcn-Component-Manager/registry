@@ -1,0 +1,29 @@
+{
+  "name": "alert-destructive",
+  "type": "registry:example",
+  "title": "Alert destructive",
+  "description": "Official shadcn/ui alert-destructive example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "alert"
+  ],
+  "files": [
+    {
+      "path": "registry/alert-destructive/examples/alert-destructive.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/alert-destructive/alert-destructive.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 alert-destructive Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/alert-destructive\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/alert-destructive",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:00.539Z",
+  "publisher": "shadcn"
+}

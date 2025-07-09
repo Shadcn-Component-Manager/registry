@@ -1,0 +1,29 @@
+{
+  "name": "badge-destructive",
+  "type": "registry:example",
+  "title": "Badge destructive",
+  "description": "Official shadcn/ui badge-destructive example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "badge"
+  ],
+  "files": [
+    {
+      "path": "registry/badge-destructive/examples/badge-destructive.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/badge-destructive/badge-destructive.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 badge-destructive Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/badge-destructive\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/badge-destructive",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:01.575Z",
+  "publisher": "shadcn"
+}

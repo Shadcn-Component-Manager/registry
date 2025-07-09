@@ -1,0 +1,32 @@
+{
+  "name": "calendar-30",
+  "type": "registry:block",
+  "title": "Calendar 30",
+  "description": "With little-date",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar",
+    "input",
+    "label",
+    "popover",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-30/blocks/calendar-30.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-30/calendar-30.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-30 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-30\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-30",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:44.778Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "login-03",
+  "type": "registry:block",
+  "title": "Login 03",
+  "description": "A login page with a muted background color.",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "button",
+    "card",
+    "input",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/login-03/blocks/login-03/page.tsx",
+      "type": "registry:page",
+      "target": "~/app/page.tsx"
+    },
+    {
+      "path": "registry/login-03/blocks/login-03/components/login-form.tsx",
+      "type": "registry:component",
+      "target": "~/components/login-03/login-form.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 login-03 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/login-03\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/login-03",
+  "categories": [
+    "authentication",
+    "login"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:38.545Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "calendar-14",
+  "type": "registry:block",
+  "title": "Calendar 14",
+  "description": "With Booked/Unavailable Days",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-14/blocks/calendar-14.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-14/calendar-14.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-14 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-14\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-14",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:41.730Z",
+  "publisher": "shadcn"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "utils",
+  "type": "registry:lib",
+  "title": "Utils",
+  "description": "Official shadcn/ui utils lib",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [
+    "clsx",
+    "tailwind-merge"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/utils/lib/utils.ts",
+      "type": "registry:lib",
+      "target": "~/lib/utils.ts"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📚 utils Library Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/lib\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/utils",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:59.263Z",
+  "publisher": "shadcn"
+}

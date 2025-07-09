@@ -1,0 +1,28 @@
+{
+  "name": "calendar-08",
+  "type": "registry:block",
+  "title": "Calendar 08",
+  "description": "Calendar with disabled days",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "calendar"
+  ],
+  "files": [
+    {
+      "path": "registry/calendar-08/blocks/calendar-08.tsx",
+      "type": "registry:component",
+      "target": "~/components/calendar-08/calendar-08.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           🧱 calendar-08 Block Installed!                        ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/calendar-08\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/calendar-08",
+  "categories": [
+    "calendar",
+    "date"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:16:40.489Z",
+  "publisher": "shadcn"
+}

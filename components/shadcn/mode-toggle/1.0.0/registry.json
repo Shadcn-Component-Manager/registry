@@ -1,0 +1,27 @@
+{
+  "name": "mode-toggle",
+  "type": "registry:example",
+  "title": "Mode toggle",
+  "description": "Official shadcn/ui mode-toggle example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/mode-toggle/examples/mode-toggle.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/mode-toggle/mode-toggle.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 mode-toggle Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/mode-toggle\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/mode-toggle",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:27.592Z",
+  "publisher": "shadcn"
+}

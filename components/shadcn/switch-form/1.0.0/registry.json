@@ -1,0 +1,30 @@
+{
+  "name": "switch-form",
+  "type": "registry:example",
+  "title": "Switch form",
+  "description": "Official shadcn/ui switch-form example",
+  "author": "shadcn (https://ui.shadcn.com)",
+  "dependencies": [],
+  "registryDependencies": [
+    "switch",
+    "form"
+  ],
+  "files": [
+    {
+      "path": "registry/switch-form/examples/switch-form.tsx",
+      "type": "registry:example",
+      "target": "~/components/examples/switch-form/switch-form.tsx"
+    }
+  ],
+  "cssVars": {},
+  "tailwind": {},
+  "docs": "╔══════════════════════════════════════════════════════════════════════════════╗\n║                           📝 switch-form Example Installed!                       ║\n╚══════════════════════════════════════════════════════════════════════════════╝\n\n🔗 Documentation:\n   • Official docs: https://ui.shadcn.com/docs/examples/switch-form\n   • Source: https://github.com/shadcn/ui\n   • Install with: scm add shadcn/switch-form",
+  "categories": [
+    "ui",
+    "official",
+    "shadcn"
+  ],
+  "version": "1.0.0",
+  "publishedAt": "2025-07-09T21:17:20.393Z",
+  "publisher": "shadcn"
+}
