@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/sonner-demo/examples/sonner-demo.tsx",
+      "path": "registry/examples/sonner-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/sonner-demo/sonner-demo.tsx"
     }

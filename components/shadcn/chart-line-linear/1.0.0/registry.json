@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-line-linear/charts/chart-line-linear.tsx",
+      "path": "registry/charts/chart-line-linear.tsx",
       "type": "registry:block",
       "target": "~/components/chart-line-linear/chart-line-linear.tsx"
     }

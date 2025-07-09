@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/sidebar-menu/internal/sidebar-menu.tsx",
+      "path": "registry/internal/sidebar-menu.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-menu/sidebar-menu.tsx"
     }

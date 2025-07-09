@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/popover-demo/examples/popover-demo.tsx",
+      "path": "registry/examples/popover-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/popover-demo/popover-demo.tsx"
     }

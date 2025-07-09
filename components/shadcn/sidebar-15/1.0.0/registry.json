@@ -17,57 +17,57 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/page.tsx",
+      "path": "registry/blocks/sidebar-15/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/calendars.tsx",
+      "path": "registry/blocks/sidebar-15/components/calendars.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/calendars.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/date-picker.tsx",
+      "path": "registry/blocks/sidebar-15/components/date-picker.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/date-picker.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-favorites.tsx",
+      "path": "registry/blocks/sidebar-15/components/nav-favorites.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/nav-favorites.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-main.tsx",
+      "path": "registry/blocks/sidebar-15/components/nav-main.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/nav-main.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-secondary.tsx",
+      "path": "registry/blocks/sidebar-15/components/nav-secondary.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/nav-secondary.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-user.tsx",
+      "path": "registry/blocks/sidebar-15/components/nav-user.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/nav-user.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/nav-workspaces.tsx",
+      "path": "registry/blocks/sidebar-15/components/nav-workspaces.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/nav-workspaces.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/sidebar-left.tsx",
+      "path": "registry/blocks/sidebar-15/components/sidebar-left.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/sidebar-left.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/sidebar-right.tsx",
+      "path": "registry/blocks/sidebar-15/components/sidebar-right.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/sidebar-right.tsx"
     },
     {
-      "path": "registry/sidebar-15/blocks/sidebar-15/components/team-switcher.tsx",
+      "path": "registry/blocks/sidebar-15/components/team-switcher.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-15/team-switcher.tsx"
     }

@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-tooltip-indicator-line/charts/chart-tooltip-indicator-line.tsx",
+      "path": "registry/charts/chart-tooltip-indicator-line.tsx",
       "type": "registry:block",
       "target": "~/components/chart-tooltip-indicator-line/chart-tooltip-indicator-line.tsx"
     }

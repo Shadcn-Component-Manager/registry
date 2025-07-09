@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/progress-demo/examples/progress-demo.tsx",
+      "path": "registry/examples/progress-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/progress-demo/progress-demo.tsx"
     }

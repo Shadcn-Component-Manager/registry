@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/sheet-side/examples/sheet-side.tsx",
+      "path": "registry/examples/sheet-side.tsx",
       "type": "registry:example",
       "target": "~/components/examples/sheet-side/sheet-side.tsx"
     }

@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/combobox-popover/examples/combobox-popover.tsx",
+      "path": "registry/examples/combobox-popover.tsx",
       "type": "registry:example",
       "target": "~/components/examples/combobox-popover/combobox-popover.tsx"
     }

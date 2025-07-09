@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/select-scrollable/examples/select-scrollable.tsx",
+      "path": "registry/examples/select-scrollable.tsx",
       "type": "registry:example",
       "target": "~/components/examples/select-scrollable/select-scrollable.tsx"
     }

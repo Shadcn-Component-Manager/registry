@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/drawer-demo/examples/drawer-demo.tsx",
+      "path": "registry/examples/drawer-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/drawer-demo/drawer-demo.tsx"
     }

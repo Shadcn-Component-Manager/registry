@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/dialog/ui/dialog.tsx",
+      "path": "registry/ui/dialog.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/dialog.tsx"
     }

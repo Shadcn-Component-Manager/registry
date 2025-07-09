@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/dropdown-menu-checkboxes/examples/dropdown-menu-checkboxes.tsx",
+      "path": "registry/examples/dropdown-menu-checkboxes.tsx",
       "type": "registry:example",
       "target": "~/components/examples/dropdown-menu-checkboxes/dropdown-menu-checkboxes.tsx"
     }

@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/dropdown-menu/ui/dropdown-menu.tsx",
+      "path": "registry/ui/dropdown-menu.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/dropdown-menu.tsx"
     }

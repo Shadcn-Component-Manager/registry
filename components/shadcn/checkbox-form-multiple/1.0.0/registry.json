@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/checkbox-form-multiple/examples/checkbox-form-multiple.tsx",
+      "path": "registry/examples/checkbox-form-multiple.tsx",
       "type": "registry:example",
       "target": "~/components/examples/checkbox-form-multiple/checkbox-form-multiple.tsx"
     }

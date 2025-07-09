@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/chart-tooltip-demo/examples/chart-tooltip-demo.tsx",
+      "path": "registry/examples/chart-tooltip-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/chart-tooltip-demo/chart-tooltip-demo.tsx"
     }

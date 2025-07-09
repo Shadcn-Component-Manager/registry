@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/resizable-demo-with-handle/examples/resizable-demo-with-handle.tsx",
+      "path": "registry/examples/resizable-demo-with-handle.tsx",
       "type": "registry:example",
       "target": "~/components/examples/resizable-demo-with-handle/resizable-demo-with-handle.tsx"
     }

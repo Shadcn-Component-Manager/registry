@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-outline/examples/toggle-outline.tsx",
+      "path": "registry/examples/toggle-outline.tsx",
       "type": "registry:example",
       "target": "~/components/examples/toggle-outline/toggle-outline.tsx"
     }

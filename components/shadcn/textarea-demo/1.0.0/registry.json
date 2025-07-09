@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/textarea-demo/examples/textarea-demo.tsx",
+      "path": "registry/examples/textarea-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/textarea-demo/textarea-demo.tsx"
     }

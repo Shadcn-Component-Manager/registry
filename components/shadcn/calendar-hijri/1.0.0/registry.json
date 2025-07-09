@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/calendar-hijri/examples/calendar-hijri.tsx",
+      "path": "registry/examples/calendar-hijri.tsx",
       "type": "registry:example",
       "target": "~/components/examples/calendar-hijri/calendar-hijri.tsx"
     }

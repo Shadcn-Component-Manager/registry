@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/drawer-dialog/examples/drawer-dialog.tsx",
+      "path": "registry/examples/drawer-dialog.tsx",
       "type": "registry:example",
       "target": "~/components/examples/drawer-dialog/drawer-dialog.tsx"
     }

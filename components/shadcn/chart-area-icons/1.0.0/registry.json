@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-area-icons/charts/chart-area-icons.tsx",
+      "path": "registry/charts/chart-area-icons.tsx",
       "type": "registry:block",
       "target": "~/components/chart-area-icons/chart-area-icons.tsx"
     }

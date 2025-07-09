@@ -13,12 +13,12 @@
   ],
   "files": [
     {
-      "path": "registry/login-04/blocks/login-04/page.tsx",
+      "path": "registry/blocks/login-04/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/login-04/blocks/login-04/components/login-form.tsx",
+      "path": "registry/blocks/login-04/components/login-form.tsx",
       "type": "registry:component",
       "target": "~/components/login-04/login-form.tsx"
     }

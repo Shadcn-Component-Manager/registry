@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/radio-group-demo/examples/radio-group-demo.tsx",
+      "path": "registry/examples/radio-group-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/radio-group-demo/radio-group-demo.tsx"
     }

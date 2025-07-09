@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-area-axes/charts/chart-area-axes.tsx",
+      "path": "registry/charts/chart-area-axes.tsx",
       "type": "registry:block",
       "target": "~/components/chart-area-axes/chart-area-axes.tsx"
     }

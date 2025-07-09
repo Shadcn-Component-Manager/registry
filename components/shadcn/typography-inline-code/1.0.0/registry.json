@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/typography-inline-code/examples/typography-inline-code.tsx",
+      "path": "registry/examples/typography-inline-code.tsx",
       "type": "registry:example",
       "target": "~/components/examples/typography-inline-code/typography-inline-code.tsx"
     }

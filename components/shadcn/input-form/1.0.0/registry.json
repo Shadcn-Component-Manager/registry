@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-form/examples/input-form.tsx",
+      "path": "registry/examples/input-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-form/input-form.tsx"
     }

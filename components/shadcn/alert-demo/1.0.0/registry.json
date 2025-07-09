@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/alert-demo/examples/alert-demo.tsx",
+      "path": "registry/examples/alert-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/alert-demo/alert-demo.tsx"
     }

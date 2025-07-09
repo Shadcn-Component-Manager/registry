@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-file/examples/input-file.tsx",
+      "path": "registry/examples/input-file.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-file/input-file.tsx"
     }

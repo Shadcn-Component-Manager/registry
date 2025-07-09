@@ -17,7 +17,7 @@
   ],
   "files": [
     {
-      "path": "registry/form/ui/form.tsx",
+      "path": "registry/ui/form.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/form.tsx"
     }

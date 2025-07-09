@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/accordion-demo/examples/accordion-demo.tsx",
+      "path": "registry/examples/accordion-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/accordion-demo/accordion-demo.tsx"
     }

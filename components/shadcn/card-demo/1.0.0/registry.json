@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/card-demo/examples/card-demo.tsx",
+      "path": "registry/examples/card-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/card-demo/card-demo.tsx"
     }

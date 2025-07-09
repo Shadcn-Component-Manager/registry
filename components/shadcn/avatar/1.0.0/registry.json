@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/avatar/ui/avatar.tsx",
+      "path": "registry/ui/avatar.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/avatar.tsx"
     }

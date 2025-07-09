@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-tooltip-advanced/charts/chart-tooltip-advanced.tsx",
+      "path": "registry/charts/chart-tooltip-advanced.tsx",
       "type": "registry:block",
       "target": "~/components/chart-tooltip-advanced/chart-tooltip-advanced.tsx"
     }

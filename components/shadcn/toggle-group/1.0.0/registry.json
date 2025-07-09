@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-group/ui/toggle-group.tsx",
+      "path": "registry/ui/toggle-group.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/toggle-group.tsx"
     }

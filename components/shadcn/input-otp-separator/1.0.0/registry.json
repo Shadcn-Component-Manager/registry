@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-otp-separator/examples/input-otp-separator.tsx",
+      "path": "registry/examples/input-otp-separator.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-otp-separator/input-otp-separator.tsx"
     }

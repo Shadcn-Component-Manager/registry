@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-tooltip-label-custom/charts/chart-tooltip-label-custom.tsx",
+      "path": "registry/charts/chart-tooltip-label-custom.tsx",
       "type": "registry:block",
       "target": "~/components/chart-tooltip-label-custom/chart-tooltip-label-custom.tsx"
     }

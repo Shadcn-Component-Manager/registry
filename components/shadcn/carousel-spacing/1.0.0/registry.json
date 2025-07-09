@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/carousel-spacing/examples/carousel-spacing.tsx",
+      "path": "registry/examples/carousel-spacing.tsx",
       "type": "registry:example",
       "target": "~/components/examples/carousel-spacing/carousel-spacing.tsx"
     }

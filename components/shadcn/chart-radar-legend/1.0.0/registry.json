@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-radar-legend/charts/chart-radar-legend.tsx",
+      "path": "registry/charts/chart-radar-legend.tsx",
       "type": "registry:block",
       "target": "~/components/chart-radar-legend/chart-radar-legend.tsx"
     }

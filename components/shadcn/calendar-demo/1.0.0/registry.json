@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/calendar-demo/examples/calendar-demo.tsx",
+      "path": "registry/examples/calendar-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/calendar-demo/calendar-demo.tsx"
     }

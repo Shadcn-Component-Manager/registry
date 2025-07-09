@@ -15,42 +15,42 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/page.tsx",
+      "path": "registry/blocks/sidebar-10/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/app-sidebar.tsx",
+      "path": "registry/blocks/sidebar-10/components/app-sidebar.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/app-sidebar.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/nav-actions.tsx",
+      "path": "registry/blocks/sidebar-10/components/nav-actions.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/nav-actions.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/nav-favorites.tsx",
+      "path": "registry/blocks/sidebar-10/components/nav-favorites.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/nav-favorites.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/nav-main.tsx",
+      "path": "registry/blocks/sidebar-10/components/nav-main.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/nav-main.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/nav-secondary.tsx",
+      "path": "registry/blocks/sidebar-10/components/nav-secondary.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/nav-secondary.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/nav-workspaces.tsx",
+      "path": "registry/blocks/sidebar-10/components/nav-workspaces.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/nav-workspaces.tsx"
     },
     {
-      "path": "registry/sidebar-10/blocks/sidebar-10/components/team-switcher.tsx",
+      "path": "registry/blocks/sidebar-10/components/team-switcher.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-10/team-switcher.tsx"
     }

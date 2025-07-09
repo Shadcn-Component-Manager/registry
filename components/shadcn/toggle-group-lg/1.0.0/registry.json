@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-group-lg/examples/toggle-group-lg.tsx",
+      "path": "registry/examples/toggle-group-lg.tsx",
       "type": "registry:example",
       "target": "~/components/examples/toggle-group-lg/toggle-group-lg.tsx"
     }

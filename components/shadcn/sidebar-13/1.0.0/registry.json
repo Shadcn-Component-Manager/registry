@@ -13,12 +13,12 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar-13/blocks/sidebar-13/page.tsx",
+      "path": "registry/blocks/sidebar-13/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/sidebar-13/blocks/sidebar-13/components/settings-dialog.tsx",
+      "path": "registry/blocks/sidebar-13/components/settings-dialog.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-13/settings-dialog.tsx"
     }

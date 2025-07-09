@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/button-ghost/examples/button-ghost.tsx",
+      "path": "registry/examples/button-ghost.tsx",
       "type": "registry:example",
       "target": "~/components/examples/button-ghost/button-ghost.tsx"
     }

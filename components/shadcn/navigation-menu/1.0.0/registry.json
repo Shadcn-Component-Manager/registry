@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/navigation-menu/ui/navigation-menu.tsx",
+      "path": "registry/ui/navigation-menu.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/navigation-menu.tsx"
     }

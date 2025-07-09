@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/context-menu-demo/examples/context-menu-demo.tsx",
+      "path": "registry/examples/context-menu-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/context-menu-demo/context-menu-demo.tsx"
     }

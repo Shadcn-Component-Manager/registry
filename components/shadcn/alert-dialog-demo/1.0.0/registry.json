@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/alert-dialog-demo/examples/alert-dialog-demo.tsx",
+      "path": "registry/examples/alert-dialog-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/alert-dialog-demo/alert-dialog-demo.tsx"
     }

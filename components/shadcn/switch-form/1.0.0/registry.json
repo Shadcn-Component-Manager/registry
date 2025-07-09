@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/switch-form/examples/switch-form.tsx",
+      "path": "registry/examples/switch-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/switch-form/switch-form.tsx"
     }

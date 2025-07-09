@@ -13,7 +13,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart/ui/chart.tsx",
+      "path": "registry/ui/chart.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/chart.tsx"
     }

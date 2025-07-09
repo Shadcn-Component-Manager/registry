@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/button-as-child/examples/button-as-child.tsx",
+      "path": "registry/examples/button-as-child.tsx",
       "type": "registry:example",
       "target": "~/components/examples/button-as-child/button-as-child.tsx"
     }

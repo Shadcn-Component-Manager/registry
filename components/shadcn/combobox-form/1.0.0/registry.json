@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/combobox-form/examples/combobox-form.tsx",
+      "path": "registry/examples/combobox-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/combobox-form/combobox-form.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/button-loading/examples/button-loading.tsx",
+      "path": "registry/examples/button-loading.tsx",
       "type": "registry:example",
       "target": "~/components/examples/button-loading/button-loading.tsx"
     }

@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/separator/ui/separator.tsx",
+      "path": "registry/ui/separator.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/separator.tsx"
     }

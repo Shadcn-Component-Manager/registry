@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/context-menu/ui/context-menu.tsx",
+      "path": "registry/ui/context-menu.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/context-menu.tsx"
     }

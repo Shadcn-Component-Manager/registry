@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/breadcrumb-dropdown/examples/breadcrumb-dropdown.tsx",
+      "path": "registry/examples/breadcrumb-dropdown.tsx",
       "type": "registry:example",
       "target": "~/components/examples/breadcrumb-dropdown/breadcrumb-dropdown.tsx"
     }

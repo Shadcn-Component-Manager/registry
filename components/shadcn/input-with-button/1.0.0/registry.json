@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-with-button/examples/input-with-button.tsx",
+      "path": "registry/examples/input-with-button.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-with-button/input-with-button.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/combobox-demo/examples/combobox-demo.tsx",
+      "path": "registry/examples/combobox-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/combobox-demo/combobox-demo.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/pagination/ui/pagination.tsx",
+      "path": "registry/ui/pagination.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/pagination.tsx"
     }

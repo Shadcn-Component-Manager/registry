@@ -14,7 +14,7 @@
   ],
   "files": [
     {
-      "path": "registry/date-picker-with-range/examples/date-picker-with-range.tsx",
+      "path": "registry/examples/date-picker-with-range.tsx",
       "type": "registry:example",
       "target": "~/components/examples/date-picker-with-range/date-picker-with-range.tsx"
     }

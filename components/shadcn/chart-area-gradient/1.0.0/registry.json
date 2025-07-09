@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-area-gradient/charts/chart-area-gradient.tsx",
+      "path": "registry/charts/chart-area-gradient.tsx",
       "type": "registry:block",
       "target": "~/components/chart-area-gradient/chart-area-gradient.tsx"
     }

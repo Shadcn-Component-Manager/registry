@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/command/ui/command.tsx",
+      "path": "registry/ui/command.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/command.tsx"
     }

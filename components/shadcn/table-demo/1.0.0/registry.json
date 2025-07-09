@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/table-demo/examples/table-demo.tsx",
+      "path": "registry/examples/table-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/table-demo/table-demo.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/textarea-disabled/examples/textarea-disabled.tsx",
+      "path": "registry/examples/textarea-disabled.tsx",
       "type": "registry:example",
       "target": "~/components/examples/textarea-disabled/textarea-disabled.tsx"
     }

@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-area-stacked/charts/chart-area-stacked.tsx",
+      "path": "registry/charts/chart-area-stacked.tsx",
       "type": "registry:block",
       "target": "~/components/chart-area-stacked/chart-area-stacked.tsx"
     }

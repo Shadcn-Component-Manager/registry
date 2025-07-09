@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/aspect-ratio-demo/examples/aspect-ratio-demo.tsx",
+      "path": "registry/examples/aspect-ratio-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/aspect-ratio-demo/aspect-ratio-demo.tsx"
     }

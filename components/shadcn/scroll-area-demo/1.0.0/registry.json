@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/scroll-area-demo/examples/scroll-area-demo.tsx",
+      "path": "registry/examples/scroll-area-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/scroll-area-demo/scroll-area-demo.tsx"
     }

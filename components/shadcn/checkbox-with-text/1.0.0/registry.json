@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/checkbox-with-text/examples/checkbox-with-text.tsx",
+      "path": "registry/examples/checkbox-with-text.tsx",
       "type": "registry:example",
       "target": "~/components/examples/checkbox-with-text/checkbox-with-text.tsx"
     }

@@ -15,7 +15,7 @@
   ],
   "files": [
     {
-      "path": "registry/date-picker-form/examples/date-picker-form.tsx",
+      "path": "registry/examples/date-picker-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/date-picker-form/date-picker-form.tsx"
     }

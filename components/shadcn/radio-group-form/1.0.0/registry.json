@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/radio-group-form/examples/radio-group-form.tsx",
+      "path": "registry/examples/radio-group-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/radio-group-form/radio-group-form.tsx"
     }

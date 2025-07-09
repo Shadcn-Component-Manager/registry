@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-pie-label/charts/chart-pie-label.tsx",
+      "path": "registry/charts/chart-pie-label.tsx",
       "type": "registry:block",
       "target": "~/components/chart-pie-label/chart-pie-label.tsx"
     }

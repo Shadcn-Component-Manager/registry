@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/popover/ui/popover.tsx",
+      "path": "registry/ui/popover.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/popover.tsx"
     }

@@ -11,7 +11,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/sonner/ui/sonner.tsx",
+      "path": "registry/ui/sonner.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/sonner.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-group-disabled/examples/toggle-group-disabled.tsx",
+      "path": "registry/examples/toggle-group-disabled.tsx",
       "type": "registry:example",
       "target": "~/components/examples/toggle-group-disabled/toggle-group-disabled.tsx"
     }

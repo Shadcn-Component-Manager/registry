@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/command-demo/examples/command-demo.tsx",
+      "path": "registry/examples/command-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/command-demo/command-demo.tsx"
     }

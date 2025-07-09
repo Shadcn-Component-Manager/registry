@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/dropdown-menu-demo/examples/dropdown-menu-demo.tsx",
+      "path": "registry/examples/dropdown-menu-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/dropdown-menu-demo/dropdown-menu-demo.tsx"
     }

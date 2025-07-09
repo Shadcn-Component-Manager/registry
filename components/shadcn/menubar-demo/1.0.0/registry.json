@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/menubar-demo/examples/menubar-demo.tsx",
+      "path": "registry/examples/menubar-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/menubar-demo/menubar-demo.tsx"
     }

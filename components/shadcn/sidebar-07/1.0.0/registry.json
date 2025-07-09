@@ -15,32 +15,32 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar-07/blocks/sidebar-07/page.tsx",
+      "path": "registry/blocks/sidebar-07/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/sidebar-07/blocks/sidebar-07/components/app-sidebar.tsx",
+      "path": "registry/blocks/sidebar-07/components/app-sidebar.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-07/app-sidebar.tsx"
     },
     {
-      "path": "registry/sidebar-07/blocks/sidebar-07/components/nav-main.tsx",
+      "path": "registry/blocks/sidebar-07/components/nav-main.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-07/nav-main.tsx"
     },
     {
-      "path": "registry/sidebar-07/blocks/sidebar-07/components/nav-projects.tsx",
+      "path": "registry/blocks/sidebar-07/components/nav-projects.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-07/nav-projects.tsx"
     },
     {
-      "path": "registry/sidebar-07/blocks/sidebar-07/components/nav-user.tsx",
+      "path": "registry/blocks/sidebar-07/components/nav-user.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-07/nav-user.tsx"
     },
     {
-      "path": "registry/sidebar-07/blocks/sidebar-07/components/team-switcher.tsx",
+      "path": "registry/blocks/sidebar-07/components/team-switcher.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-07/team-switcher.tsx"
     }

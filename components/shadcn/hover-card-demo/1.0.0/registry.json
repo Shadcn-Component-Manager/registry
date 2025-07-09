@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/hover-card-demo/examples/hover-card-demo.tsx",
+      "path": "registry/examples/hover-card-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/hover-card-demo/hover-card-demo.tsx"
     }

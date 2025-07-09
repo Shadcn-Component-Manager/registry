@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/textarea/ui/textarea.tsx",
+      "path": "registry/ui/textarea.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/textarea.tsx"
     }

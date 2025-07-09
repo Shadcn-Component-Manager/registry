@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/switch/ui/switch.tsx",
+      "path": "registry/ui/switch.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/switch.tsx"
     }

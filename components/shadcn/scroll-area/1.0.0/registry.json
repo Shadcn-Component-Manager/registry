@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/scroll-area/ui/scroll-area.tsx",
+      "path": "registry/ui/scroll-area.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/scroll-area.tsx"
     }

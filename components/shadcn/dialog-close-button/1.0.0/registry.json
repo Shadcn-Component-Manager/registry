@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/dialog-close-button/examples/dialog-close-button.tsx",
+      "path": "registry/examples/dialog-close-button.tsx",
       "type": "registry:example",
       "target": "~/components/examples/dialog-close-button/dialog-close-button.tsx"
     }

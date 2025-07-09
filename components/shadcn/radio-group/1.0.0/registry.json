@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/radio-group/ui/radio-group.tsx",
+      "path": "registry/ui/radio-group.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/radio-group.tsx"
     }

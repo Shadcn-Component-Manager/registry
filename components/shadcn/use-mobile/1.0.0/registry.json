@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/use-mobile/hooks/use-mobile.ts",
+      "path": "registry/hooks/use-mobile.ts",
       "type": "registry:hook",
       "target": "~/hooks/use-mobile.ts"
     }

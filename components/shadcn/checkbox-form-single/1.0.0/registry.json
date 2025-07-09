@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/checkbox-form-single/examples/checkbox-form-single.tsx",
+      "path": "registry/examples/checkbox-form-single.tsx",
       "type": "registry:example",
       "target": "~/components/examples/checkbox-form-single/checkbox-form-single.tsx"
     }

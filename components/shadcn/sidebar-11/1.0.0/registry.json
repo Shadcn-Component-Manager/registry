@@ -13,12 +13,12 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar-11/blocks/sidebar-11/page.tsx",
+      "path": "registry/blocks/sidebar-11/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/sidebar-11/blocks/sidebar-11/components/app-sidebar.tsx",
+      "path": "registry/blocks/sidebar-11/components/app-sidebar.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-11/app-sidebar.tsx"
     }

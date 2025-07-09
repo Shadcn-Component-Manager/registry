@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-pie-interactive/charts/chart-pie-interactive.tsx",
+      "path": "registry/charts/chart-pie-interactive.tsx",
       "type": "registry:block",
       "target": "~/components/chart-pie-interactive/chart-pie-interactive.tsx"
     }

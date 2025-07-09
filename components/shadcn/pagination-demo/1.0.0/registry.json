@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/pagination-demo/examples/pagination-demo.tsx",
+      "path": "registry/examples/pagination-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/pagination-demo/pagination-demo.tsx"
     }

@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/slider/ui/slider.tsx",
+      "path": "registry/ui/slider.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/slider.tsx"
     }

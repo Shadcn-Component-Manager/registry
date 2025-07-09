@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-pie-donut-active/charts/chart-pie-donut-active.tsx",
+      "path": "registry/charts/chart-pie-donut-active.tsx",
       "type": "registry:block",
       "target": "~/components/chart-pie-donut-active/chart-pie-donut-active.tsx"
     }

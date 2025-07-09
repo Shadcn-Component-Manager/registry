@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/dropdown-menu-radio-group/examples/dropdown-menu-radio-group.tsx",
+      "path": "registry/examples/dropdown-menu-radio-group.tsx",
       "type": "registry:example",
       "target": "~/components/examples/dropdown-menu-radio-group/dropdown-menu-radio-group.tsx"
     }

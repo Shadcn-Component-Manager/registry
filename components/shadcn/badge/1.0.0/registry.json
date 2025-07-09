@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/badge/ui/badge.tsx",
+      "path": "registry/ui/badge.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/badge.tsx"
     }

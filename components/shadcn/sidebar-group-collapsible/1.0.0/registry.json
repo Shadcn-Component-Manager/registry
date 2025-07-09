@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/sidebar-group-collapsible/internal/sidebar-group-collapsible.tsx",
+      "path": "registry/internal/sidebar-group-collapsible.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-group-collapsible/sidebar-group-collapsible.tsx"
     }

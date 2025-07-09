@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/tabs/ui/tabs.tsx",
+      "path": "registry/ui/tabs.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/tabs.tsx"
     }

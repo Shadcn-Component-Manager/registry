@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/tooltip/ui/tooltip.tsx",
+      "path": "registry/ui/tooltip.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/tooltip.tsx"
     }

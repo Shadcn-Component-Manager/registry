@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-disabled/examples/toggle-disabled.tsx",
+      "path": "registry/examples/toggle-disabled.tsx",
       "type": "registry:example",
       "target": "~/components/examples/toggle-disabled/toggle-disabled.tsx"
     }

@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-with-label/examples/input-with-label.tsx",
+      "path": "registry/examples/input-with-label.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-with-label/input-with-label.tsx"
     }

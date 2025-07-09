@@ -11,7 +11,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/utils/lib/utils.ts",
+      "path": "registry/lib/utils.ts",
       "type": "registry:lib",
       "target": "~/lib/utils.ts"
     }

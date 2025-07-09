@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-with-text/examples/input-with-text.tsx",
+      "path": "registry/examples/input-with-text.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-with-text/input-with-text.tsx"
     }

@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/hover-card/ui/hover-card.tsx",
+      "path": "registry/ui/hover-card.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/hover-card.tsx"
     }

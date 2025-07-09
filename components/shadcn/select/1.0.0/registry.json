@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/select/ui/select.tsx",
+      "path": "registry/ui/select.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/select.tsx"
     }

@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/carousel/ui/carousel.tsx",
+      "path": "registry/ui/carousel.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/carousel.tsx"
     }

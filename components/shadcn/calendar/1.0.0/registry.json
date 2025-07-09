@@ -13,7 +13,7 @@
   ],
   "files": [
     {
-      "path": "registry/calendar/ui/calendar.tsx",
+      "path": "registry/ui/calendar.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/calendar.tsx"
     }

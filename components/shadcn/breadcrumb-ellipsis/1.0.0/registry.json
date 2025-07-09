@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/breadcrumb-ellipsis/examples/breadcrumb-ellipsis.tsx",
+      "path": "registry/examples/breadcrumb-ellipsis.tsx",
       "type": "registry:example",
       "target": "~/components/examples/breadcrumb-ellipsis/breadcrumb-ellipsis.tsx"
     }

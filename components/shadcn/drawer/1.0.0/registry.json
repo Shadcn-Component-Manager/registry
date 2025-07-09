@@ -11,7 +11,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/drawer/ui/drawer.tsx",
+      "path": "registry/ui/drawer.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/drawer.tsx"
     }

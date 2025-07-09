@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-group-outline/examples/toggle-group-outline.tsx",
+      "path": "registry/examples/toggle-group-outline.tsx",
       "type": "registry:example",
       "target": "~/components/examples/toggle-group-outline/toggle-group-outline.tsx"
     }

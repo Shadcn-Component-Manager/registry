@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/breadcrumb-separator/examples/breadcrumb-separator.tsx",
+      "path": "registry/examples/breadcrumb-separator.tsx",
       "type": "registry:example",
       "target": "~/components/examples/breadcrumb-separator/breadcrumb-separator.tsx"
     }

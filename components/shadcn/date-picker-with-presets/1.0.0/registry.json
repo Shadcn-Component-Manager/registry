@@ -15,7 +15,7 @@
   ],
   "files": [
     {
-      "path": "registry/date-picker-with-presets/examples/date-picker-with-presets.tsx",
+      "path": "registry/examples/date-picker-with-presets.tsx",
       "type": "registry:example",
       "target": "~/components/examples/date-picker-with-presets/date-picker-with-presets.tsx"
     }

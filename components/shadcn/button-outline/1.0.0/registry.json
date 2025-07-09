@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/button-outline/examples/button-outline.tsx",
+      "path": "registry/examples/button-outline.tsx",
       "type": "registry:example",
       "target": "~/components/examples/button-outline/button-outline.tsx"
     }

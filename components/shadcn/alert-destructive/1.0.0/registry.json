@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/alert-destructive/examples/alert-destructive.tsx",
+      "path": "registry/examples/alert-destructive.tsx",
       "type": "registry:example",
       "target": "~/components/examples/alert-destructive/alert-destructive.tsx"
     }

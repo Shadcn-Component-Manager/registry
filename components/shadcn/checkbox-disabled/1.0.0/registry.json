@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/checkbox-disabled/examples/checkbox-disabled.tsx",
+      "path": "registry/examples/checkbox-disabled.tsx",
       "type": "registry:example",
       "target": "~/components/examples/checkbox-disabled/checkbox-disabled.tsx"
     }

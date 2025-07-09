@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/select-form/examples/select-form.tsx",
+      "path": "registry/examples/select-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/select-form/select-form.tsx"
     }

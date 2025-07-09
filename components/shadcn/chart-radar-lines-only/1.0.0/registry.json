@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-radar-lines-only/charts/chart-radar-lines-only.tsx",
+      "path": "registry/charts/chart-radar-lines-only.tsx",
       "type": "registry:block",
       "target": "~/components/chart-radar-lines-only/chart-radar-lines-only.tsx"
     }

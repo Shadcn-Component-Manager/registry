@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/textarea-with-text/examples/textarea-with-text.tsx",
+      "path": "registry/examples/textarea-with-text.tsx",
       "type": "registry:example",
       "target": "~/components/examples/textarea-with-text/textarea-with-text.tsx"
     }

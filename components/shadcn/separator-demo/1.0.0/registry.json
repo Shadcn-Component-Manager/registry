@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/separator-demo/examples/separator-demo.tsx",
+      "path": "registry/examples/separator-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/separator-demo/separator-demo.tsx"
     }

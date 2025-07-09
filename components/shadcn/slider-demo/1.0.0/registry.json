@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/slider-demo/examples/slider-demo.tsx",
+      "path": "registry/examples/slider-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/slider-demo/slider-demo.tsx"
     }

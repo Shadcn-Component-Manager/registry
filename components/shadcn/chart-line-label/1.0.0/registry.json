@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-line-label/charts/chart-line-label.tsx",
+      "path": "registry/charts/chart-line-label.tsx",
       "type": "registry:block",
       "target": "~/components/chart-line-label/chart-line-label.tsx"
     }

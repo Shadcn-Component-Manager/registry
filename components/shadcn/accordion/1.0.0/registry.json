@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/accordion/ui/accordion.tsx",
+      "path": "registry/ui/accordion.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/accordion.tsx"
     }

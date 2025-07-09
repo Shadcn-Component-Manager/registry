@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/typography-h4/examples/typography-h4.tsx",
+      "path": "registry/examples/typography-h4.tsx",
       "type": "registry:example",
       "target": "~/components/examples/typography-h4/typography-h4.tsx"
     }

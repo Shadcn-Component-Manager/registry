@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-radial-grid/charts/chart-radial-grid.tsx",
+      "path": "registry/charts/chart-radial-grid.tsx",
       "type": "registry:block",
       "target": "~/components/chart-radial-grid/chart-radial-grid.tsx"
     }

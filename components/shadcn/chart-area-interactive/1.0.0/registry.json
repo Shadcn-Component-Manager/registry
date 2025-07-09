@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-area-interactive/charts/chart-area-interactive.tsx",
+      "path": "registry/charts/chart-area-interactive.tsx",
       "type": "registry:component",
       "target": "~/components/chart-area-interactive/chart-area-interactive.tsx"
     }

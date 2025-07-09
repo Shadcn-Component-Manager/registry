@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/label/ui/label.tsx",
+      "path": "registry/ui/label.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/label.tsx"
     }

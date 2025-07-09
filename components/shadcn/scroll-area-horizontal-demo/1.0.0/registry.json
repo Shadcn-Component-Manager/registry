@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/scroll-area-horizontal-demo/examples/scroll-area-horizontal-demo.tsx",
+      "path": "registry/examples/scroll-area-horizontal-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/scroll-area-horizontal-demo/scroll-area-horizontal-demo.tsx"
     }

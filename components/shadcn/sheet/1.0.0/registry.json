@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/sheet/ui/sheet.tsx",
+      "path": "registry/ui/sheet.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/sheet.tsx"
     }

@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/aspect-ratio/ui/aspect-ratio.tsx",
+      "path": "registry/ui/aspect-ratio.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/aspect-ratio.tsx"
     }

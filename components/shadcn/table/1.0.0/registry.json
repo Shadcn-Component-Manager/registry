@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/table/ui/table.tsx",
+      "path": "registry/ui/table.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/table.tsx"
     }

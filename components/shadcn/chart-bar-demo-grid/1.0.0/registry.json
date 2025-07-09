@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/chart-bar-demo-grid/examples/chart-bar-demo-grid.tsx",
+      "path": "registry/examples/chart-bar-demo-grid.tsx",
       "type": "registry:example",
       "target": "~/components/examples/chart-bar-demo-grid/chart-bar-demo-grid.tsx"
     }

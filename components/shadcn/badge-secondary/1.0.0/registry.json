@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/badge-secondary/examples/badge-secondary.tsx",
+      "path": "registry/examples/badge-secondary.tsx",
       "type": "registry:example",
       "target": "~/components/examples/badge-secondary/badge-secondary.tsx"
     }

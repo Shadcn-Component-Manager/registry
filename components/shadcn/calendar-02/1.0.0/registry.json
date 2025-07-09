@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/calendar-02/blocks/calendar-02.tsx",
+      "path": "registry/blocks/calendar-02.tsx",
       "type": "registry:component",
       "target": "~/components/calendar-02/calendar-02.tsx"
     }

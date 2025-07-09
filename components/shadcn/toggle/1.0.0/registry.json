@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/toggle/ui/toggle.tsx",
+      "path": "registry/ui/toggle.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/toggle.tsx"
     }

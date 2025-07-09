@@ -20,7 +20,7 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar/ui/sidebar.tsx",
+      "path": "registry/ui/sidebar.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/sidebar.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/carousel-plugin/examples/carousel-plugin.tsx",
+      "path": "registry/examples/carousel-plugin.tsx",
       "type": "registry:example",
       "target": "~/components/examples/carousel-plugin/carousel-plugin.tsx"
     }

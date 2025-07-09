@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/dialog-demo/examples/dialog-demo.tsx",
+      "path": "registry/examples/dialog-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/dialog-demo/dialog-demo.tsx"
     }

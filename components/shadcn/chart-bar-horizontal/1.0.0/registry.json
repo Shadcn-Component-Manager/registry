@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-bar-horizontal/charts/chart-bar-horizontal.tsx",
+      "path": "registry/charts/chart-bar-horizontal.tsx",
       "type": "registry:block",
       "target": "~/components/chart-bar-horizontal/chart-bar-horizontal.tsx"
     }

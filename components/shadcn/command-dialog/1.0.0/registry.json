@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/command-dialog/examples/command-dialog.tsx",
+      "path": "registry/examples/command-dialog.tsx",
       "type": "registry:example",
       "target": "~/components/examples/command-dialog/command-dialog.tsx"
     }

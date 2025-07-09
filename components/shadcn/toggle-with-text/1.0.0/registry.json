@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/toggle-with-text/examples/toggle-with-text.tsx",
+      "path": "registry/examples/toggle-with-text.tsx",
       "type": "registry:example",
       "target": "~/components/examples/toggle-with-text/toggle-with-text.tsx"
     }

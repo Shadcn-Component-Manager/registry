@@ -12,7 +12,7 @@
   ],
   "files": [
     {
-      "path": "registry/combobox-responsive/examples/combobox-responsive.tsx",
+      "path": "registry/examples/combobox-responsive.tsx",
       "type": "registry:example",
       "target": "~/components/examples/combobox-responsive/combobox-responsive.tsx"
     }

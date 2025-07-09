@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/resizable/ui/resizable.tsx",
+      "path": "registry/ui/resizable.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/resizable.tsx"
     }

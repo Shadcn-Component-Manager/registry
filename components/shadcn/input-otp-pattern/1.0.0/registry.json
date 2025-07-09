@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/input-otp-pattern/examples/input-otp-pattern.tsx",
+      "path": "registry/examples/input-otp-pattern.tsx",
       "type": "registry:example",
       "target": "~/components/examples/input-otp-pattern/input-otp-pattern.tsx"
     }

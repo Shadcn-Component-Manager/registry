@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/button-destructive/examples/button-destructive.tsx",
+      "path": "registry/examples/button-destructive.tsx",
       "type": "registry:example",
       "target": "~/components/examples/button-destructive/button-destructive.tsx"
     }

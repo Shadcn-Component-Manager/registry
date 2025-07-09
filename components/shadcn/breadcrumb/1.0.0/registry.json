@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/breadcrumb/ui/breadcrumb.tsx",
+      "path": "registry/ui/breadcrumb.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/breadcrumb.tsx"
     }

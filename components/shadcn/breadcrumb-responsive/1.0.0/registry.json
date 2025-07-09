@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/breadcrumb-responsive/examples/breadcrumb-responsive.tsx",
+      "path": "registry/examples/breadcrumb-responsive.tsx",
       "type": "registry:example",
       "target": "~/components/examples/breadcrumb-responsive/breadcrumb-responsive.tsx"
     }

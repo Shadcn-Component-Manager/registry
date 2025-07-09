@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/skeleton-card/examples/skeleton-card.tsx",
+      "path": "registry/examples/skeleton-card.tsx",
       "type": "registry:example",
       "target": "~/components/examples/skeleton-card/skeleton-card.tsx"
     }

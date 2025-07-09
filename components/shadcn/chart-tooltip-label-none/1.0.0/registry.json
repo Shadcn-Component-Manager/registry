@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-tooltip-label-none/charts/chart-tooltip-label-none.tsx",
+      "path": "registry/charts/chart-tooltip-label-none.tsx",
       "type": "registry:block",
       "target": "~/components/chart-tooltip-label-none/chart-tooltip-label-none.tsx"
     }

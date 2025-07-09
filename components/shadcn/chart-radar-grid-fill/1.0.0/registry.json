@@ -11,7 +11,7 @@
   ],
   "files": [
     {
-      "path": "registry/chart-radar-grid-fill/charts/chart-radar-grid-fill.tsx",
+      "path": "registry/charts/chart-radar-grid-fill.tsx",
       "type": "registry:block",
       "target": "~/components/chart-radar-grid-fill/chart-radar-grid-fill.tsx"
     }

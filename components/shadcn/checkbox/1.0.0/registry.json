@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/checkbox/ui/checkbox.tsx",
+      "path": "registry/ui/checkbox.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/checkbox.tsx"
     }

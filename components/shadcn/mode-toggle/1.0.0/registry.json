@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/mode-toggle/examples/mode-toggle.tsx",
+      "path": "registry/examples/mode-toggle.tsx",
       "type": "registry:example",
       "target": "~/components/examples/mode-toggle/mode-toggle.tsx"
     }

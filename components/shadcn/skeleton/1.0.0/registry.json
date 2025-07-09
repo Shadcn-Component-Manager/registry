@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/skeleton/ui/skeleton.tsx",
+      "path": "registry/ui/skeleton.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/skeleton.tsx"
     }

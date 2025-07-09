@@ -10,7 +10,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/progress/ui/progress.tsx",
+      "path": "registry/ui/progress.tsx",
       "type": "registry:ui",
       "target": "~/components/ui/progress.tsx"
     }

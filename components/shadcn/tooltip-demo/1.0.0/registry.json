@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/tooltip-demo/examples/tooltip-demo.tsx",
+      "path": "registry/examples/tooltip-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/tooltip-demo/tooltip-demo.tsx"
     }

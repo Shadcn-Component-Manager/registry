@@ -14,7 +14,7 @@
   ],
   "files": [
     {
-      "path": "registry/card-with-form/examples/card-with-form.tsx",
+      "path": "registry/examples/card-with-form.tsx",
       "type": "registry:example",
       "target": "~/components/examples/card-with-form/card-with-form.tsx"
     }

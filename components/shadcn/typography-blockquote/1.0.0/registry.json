@@ -8,7 +8,7 @@
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/typography-blockquote/examples/typography-blockquote.tsx",
+      "path": "registry/examples/typography-blockquote.tsx",
       "type": "registry:example",
       "target": "~/components/examples/typography-blockquote/typography-blockquote.tsx"
     }

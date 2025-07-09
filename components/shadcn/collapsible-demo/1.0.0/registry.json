@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/collapsible-demo/examples/collapsible-demo.tsx",
+      "path": "registry/examples/collapsible-demo.tsx",
       "type": "registry:example",
       "target": "~/components/examples/collapsible-demo/collapsible-demo.tsx"
     }

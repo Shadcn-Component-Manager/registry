@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/resizable-vertical/examples/resizable-vertical.tsx",
+      "path": "registry/examples/resizable-vertical.tsx",
       "type": "registry:example",
       "target": "~/components/examples/resizable-vertical/resizable-vertical.tsx"
     }

@@ -10,7 +10,7 @@
   ],
   "files": [
     {
-      "path": "registry/badge-outline/examples/badge-outline.tsx",
+      "path": "registry/examples/badge-outline.tsx",
       "type": "registry:example",
       "target": "~/components/examples/badge-outline/badge-outline.tsx"
     }

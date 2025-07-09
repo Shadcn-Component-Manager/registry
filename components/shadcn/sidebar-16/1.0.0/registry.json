@@ -17,42 +17,42 @@
   ],
   "files": [
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/page.tsx",
+      "path": "registry/blocks/sidebar-16/page.tsx",
       "type": "registry:page",
       "target": "~/app/page.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/app-sidebar.tsx",
+      "path": "registry/blocks/sidebar-16/components/app-sidebar.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/app-sidebar.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-main.tsx",
+      "path": "registry/blocks/sidebar-16/components/nav-main.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/nav-main.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-projects.tsx",
+      "path": "registry/blocks/sidebar-16/components/nav-projects.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/nav-projects.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-secondary.tsx",
+      "path": "registry/blocks/sidebar-16/components/nav-secondary.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/nav-secondary.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/nav-user.tsx",
+      "path": "registry/blocks/sidebar-16/components/nav-user.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/nav-user.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/search-form.tsx",
+      "path": "registry/blocks/sidebar-16/components/search-form.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/search-form.tsx"
     },
     {
-      "path": "registry/sidebar-16/blocks/sidebar-16/components/site-header.tsx",
+      "path": "registry/blocks/sidebar-16/components/site-header.tsx",
       "type": "registry:component",
       "target": "~/components/sidebar-16/site-header.tsx"
     }
