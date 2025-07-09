@@ -1,5 +1,3827 @@
 [
   {
+    "name": "shadcn/typography-p",
+    "description": "Official shadcn/ui typography-p example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.329Z"
+  },
+  {
+    "name": "shadcn/typography-small",
+    "description": "Official shadcn/ui typography-small example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.329Z"
+  },
+  {
+    "name": "shadcn/typography-table",
+    "description": "Official shadcn/ui typography-table example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.329Z"
+  },
+  {
+    "name": "shadcn/use-mobile",
+    "description": "Official shadcn/ui use-mobile hook",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.329Z"
+  },
+  {
+    "name": "shadcn/utils",
+    "description": "Official shadcn/ui utils lib",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.329Z"
+  },
+  {
+    "name": "shadcn/typography-h2",
+    "description": "Official shadcn/ui typography-h2 example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-h3",
+    "description": "Official shadcn/ui typography-h3 example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-h4",
+    "description": "Official shadcn/ui typography-h4 example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-inline-code",
+    "description": "Official shadcn/ui typography-inline-code example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-large",
+    "description": "Official shadcn/ui typography-large example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-lead",
+    "description": "Official shadcn/ui typography-lead example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-list",
+    "description": "Official shadcn/ui typography-list example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/typography-muted",
+    "description": "Official shadcn/ui typography-muted example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.328Z"
+  },
+  {
+    "name": "shadcn/toggle-sm",
+    "description": "Official shadcn/ui toggle-sm example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/toggle-with-text",
+    "description": "Official shadcn/ui toggle-with-text example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/tooltip",
+    "description": "Official shadcn/ui tooltip ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/tooltip-demo",
+    "description": "Official shadcn/ui tooltip-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/typography-blockquote",
+    "description": "Official shadcn/ui typography-blockquote example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/typography-demo",
+    "description": "Official shadcn/ui typography-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/typography-h1",
+    "description": "Official shadcn/ui typography-h1 example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.327Z"
+  },
+  {
+    "name": "shadcn/toggle-group-disabled",
+    "description": "Official shadcn/ui toggle-group-disabled example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/toggle-group-lg",
+    "description": "Official shadcn/ui toggle-group-lg example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/toggle-group-outline",
+    "description": "Official shadcn/ui toggle-group-outline example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/toggle-group-single",
+    "description": "Official shadcn/ui toggle-group-single example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/toggle-group-sm",
+    "description": "Official shadcn/ui toggle-group-sm example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/toggle-lg",
+    "description": "Official shadcn/ui toggle-lg example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/toggle-outline",
+    "description": "Official shadcn/ui toggle-outline example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.326Z"
+  },
+  {
+    "name": "shadcn/textarea-with-button",
+    "description": "Official shadcn/ui textarea-with-button example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/textarea-with-label",
+    "description": "Official shadcn/ui textarea-with-label example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/textarea-with-text",
+    "description": "Official shadcn/ui textarea-with-text example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/toggle",
+    "description": "Official shadcn/ui toggle ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/toggle-demo",
+    "description": "Official shadcn/ui toggle-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/toggle-disabled",
+    "description": "Official shadcn/ui toggle-disabled example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/toggle-group",
+    "description": "Official shadcn/ui toggle-group ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/toggle-group-demo",
+    "description": "Official shadcn/ui toggle-group-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.325Z"
+  },
+  {
+    "name": "shadcn/table-demo",
+    "description": "Official shadcn/ui table-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/tabs",
+    "description": "Official shadcn/ui tabs ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/tabs-demo",
+    "description": "Official shadcn/ui tabs-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/textarea",
+    "description": "Official shadcn/ui textarea ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/textarea-demo",
+    "description": "Official shadcn/ui textarea-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/textarea-disabled",
+    "description": "Official shadcn/ui textarea-disabled example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/textarea-form",
+    "description": "Official shadcn/ui textarea-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.324Z"
+  },
+  {
+    "name": "shadcn/slider",
+    "description": "Official shadcn/ui slider ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/slider-demo",
+    "description": "Official shadcn/ui slider-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/sonner",
+    "description": "Official shadcn/ui sonner ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/sonner-demo",
+    "description": "Official shadcn/ui sonner-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/switch",
+    "description": "Official shadcn/ui switch ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/switch-demo",
+    "description": "Official shadcn/ui switch-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/switch-form",
+    "description": "Official shadcn/ui switch-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/table",
+    "description": "Official shadcn/ui table ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.323Z"
+  },
+  {
+    "name": "shadcn/sidebar-menu-badge",
+    "description": "Official shadcn/ui sidebar-menu-badge internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/sidebar-menu-collapsible",
+    "description": "Official shadcn/ui sidebar-menu-collapsible internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/sidebar-menu-sub",
+    "description": "Official shadcn/ui sidebar-menu-sub internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/sidebar-rsc",
+    "description": "Official shadcn/ui sidebar-rsc internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/skeleton",
+    "description": "Official shadcn/ui skeleton ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/skeleton-card",
+    "description": "Official shadcn/ui skeleton-card example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/skeleton-demo",
+    "description": "Official shadcn/ui skeleton-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.322Z"
+  },
+  {
+    "name": "shadcn/sidebar-demo",
+    "description": "Official shadcn/ui sidebar-demo internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-footer",
+    "description": "Official shadcn/ui sidebar-footer internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-group",
+    "description": "Official shadcn/ui sidebar-group internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-group-action",
+    "description": "Official shadcn/ui sidebar-group-action internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-group-collapsible",
+    "description": "Official shadcn/ui sidebar-group-collapsible internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-header",
+    "description": "Official shadcn/ui sidebar-header internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-menu",
+    "description": "Official shadcn/ui sidebar-menu internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-menu-action",
+    "description": "Official shadcn/ui sidebar-menu-action internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.321Z"
+  },
+  {
+    "name": "shadcn/sidebar-10",
+    "description": "A sidebar in a popover.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-11",
+    "description": "A sidebar with a collapsible file tree.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-12",
+    "description": "A sidebar with a calendar.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-13",
+    "description": "A sidebar in a dialog.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-14",
+    "description": "A sidebar on the right.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-15",
+    "description": "A left and right sidebar.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-16",
+    "description": "A sidebar with a sticky site header.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-controlled",
+    "description": "Official shadcn/ui sidebar-controlled internal",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.320Z"
+  },
+  {
+    "name": "shadcn/sidebar-02",
+    "description": "A sidebar with collapsible sections.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-03",
+    "description": "A sidebar with submenus.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-04",
+    "description": "A floating sidebar with submenus.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-05",
+    "description": "A sidebar with collapsible submenus.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-06",
+    "description": "A sidebar with submenus as dropdowns.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-07",
+    "description": "A sidebar that collapses to icons.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-08",
+    "description": "An inset sidebar with secondary navigation.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/sidebar-09",
+    "description": "Collapsible nested sidebars.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.319Z"
+  },
+  {
+    "name": "shadcn/select-scrollable",
+    "description": "Official shadcn/ui select-scrollable example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/separator",
+    "description": "Official shadcn/ui separator ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/separator-demo",
+    "description": "Official shadcn/ui separator-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/sheet",
+    "description": "Official shadcn/ui sheet ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/sheet-demo",
+    "description": "Official shadcn/ui sheet-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/sheet-side",
+    "description": "Official shadcn/ui sheet-side example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/sidebar",
+    "description": "Official shadcn/ui sidebar ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/sidebar-01",
+    "description": "A simple sidebar with navigation grouped by section.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "sidebar",
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.318Z"
+  },
+  {
+    "name": "shadcn/resizable-demo-with-handle",
+    "description": "Official shadcn/ui resizable-demo-with-handle example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/resizable-handle",
+    "description": "Official shadcn/ui resizable-handle example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/resizable-vertical",
+    "description": "Official shadcn/ui resizable-vertical example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/scroll-area",
+    "description": "Official shadcn/ui scroll-area ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/scroll-area-demo",
+    "description": "Official shadcn/ui scroll-area-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/scroll-area-horizontal-demo",
+    "description": "Official shadcn/ui scroll-area-horizontal-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/select",
+    "description": "Official shadcn/ui select ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/select-demo",
+    "description": "Official shadcn/ui select-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/select-form",
+    "description": "Official shadcn/ui select-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.317Z"
+  },
+  {
+    "name": "shadcn/progress-demo",
+    "description": "Official shadcn/ui progress-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.316Z"
+  },
+  {
+    "name": "shadcn/radio-group",
+    "description": "Official shadcn/ui radio-group ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.316Z"
+  },
+  {
+    "name": "shadcn/radio-group-demo",
+    "description": "Official shadcn/ui radio-group-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.316Z"
+  },
+  {
+    "name": "shadcn/radio-group-form",
+    "description": "Official shadcn/ui radio-group-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.316Z"
+  },
+  {
+    "name": "shadcn/resizable",
+    "description": "Official shadcn/ui resizable ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.316Z"
+  },
+  {
+    "name": "shadcn/resizable-demo",
+    "description": "Official shadcn/ui resizable-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.316Z"
+  },
+  {
+    "name": "shadcn/menubar-demo",
+    "description": "Official shadcn/ui menubar-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/mode-toggle",
+    "description": "Official shadcn/ui mode-toggle example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/navigation-menu",
+    "description": "Official shadcn/ui navigation-menu ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/navigation-menu-demo",
+    "description": "Official shadcn/ui navigation-menu-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/pagination",
+    "description": "Official shadcn/ui pagination ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/pagination-demo",
+    "description": "Official shadcn/ui pagination-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/popover",
+    "description": "Official shadcn/ui popover ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/popover-demo",
+    "description": "Official shadcn/ui popover-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/progress",
+    "description": "Official shadcn/ui progress ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.315Z"
+  },
+  {
+    "name": "shadcn/input-with-text",
+    "description": "Official shadcn/ui input-with-text example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/label",
+    "description": "Official shadcn/ui label ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/label-demo",
+    "description": "Official shadcn/ui label-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/login-01",
+    "description": "A simple login form.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "authentication",
+      "login"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/login-02",
+    "description": "A two column login page with a cover image.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "authentication",
+      "login"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/login-03",
+    "description": "A login page with a muted background color.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "authentication",
+      "login"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/login-04",
+    "description": "A login page with form and image.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "authentication",
+      "login"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/login-05",
+    "description": "A simple email-only login page.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "authentication",
+      "login"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/menubar",
+    "description": "Official shadcn/ui menubar ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.314Z"
+  },
+  {
+    "name": "shadcn/input-form",
+    "description": "Official shadcn/ui input-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-otp",
+    "description": "Official shadcn/ui input-otp ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-otp-controlled",
+    "description": "Official shadcn/ui input-otp-controlled example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-otp-demo",
+    "description": "Official shadcn/ui input-otp-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-otp-form",
+    "description": "Official shadcn/ui input-otp-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-otp-pattern",
+    "description": "Official shadcn/ui input-otp-pattern example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-otp-separator",
+    "description": "Official shadcn/ui input-otp-separator example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-with-button",
+    "description": "Official shadcn/ui input-with-button example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/input-with-label",
+    "description": "Official shadcn/ui input-with-label example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.313Z"
+  },
+  {
+    "name": "shadcn/dropdown-menu-radio-group",
+    "description": "Official shadcn/ui dropdown-menu-radio-group example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/form",
+    "description": "Official shadcn/ui form ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/hover-card",
+    "description": "Official shadcn/ui hover-card ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/hover-card-demo",
+    "description": "Official shadcn/ui hover-card-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/input",
+    "description": "Official shadcn/ui input ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/input-demo",
+    "description": "Official shadcn/ui input-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/input-disabled",
+    "description": "Official shadcn/ui input-disabled example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/input-file",
+    "description": "Official shadcn/ui input-file example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.312Z"
+  },
+  {
+    "name": "shadcn/dialog-demo",
+    "description": "Official shadcn/ui dialog-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/drawer",
+    "description": "Official shadcn/ui drawer ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/drawer-demo",
+    "description": "Official shadcn/ui drawer-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/drawer-dialog",
+    "description": "Official shadcn/ui drawer-dialog example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/dropdown-menu",
+    "description": "Official shadcn/ui dropdown-menu ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/dropdown-menu-checkboxes",
+    "description": "Official shadcn/ui dropdown-menu-checkboxes example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/dropdown-menu-demo",
+    "description": "Official shadcn/ui dropdown-menu-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.311Z"
+  },
+  {
+    "name": "shadcn/context-menu",
+    "description": "Official shadcn/ui context-menu ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/context-menu-demo",
+    "description": "Official shadcn/ui context-menu-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/dashboard-01",
+    "description": "A dashboard with sidebar, charts and data table.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "dashboard"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/data-table-demo",
+    "description": "Official shadcn/ui data-table-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/date-picker-demo",
+    "description": "Official shadcn/ui date-picker-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/date-picker-form",
+    "description": "Official shadcn/ui date-picker-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/date-picker-with-presets",
+    "description": "Official shadcn/ui date-picker-with-presets example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/date-picker-with-range",
+    "description": "Official shadcn/ui date-picker-with-range example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/dialog",
+    "description": "Official shadcn/ui dialog ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/dialog-close-button",
+    "description": "Official shadcn/ui dialog-close-button example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.310Z"
+  },
+  {
+    "name": "shadcn/checkbox-form-single",
+    "description": "Official shadcn/ui checkbox-form-single example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/checkbox-with-text",
+    "description": "Official shadcn/ui checkbox-with-text example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/collapsible",
+    "description": "Official shadcn/ui collapsible ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/collapsible-demo",
+    "description": "Official shadcn/ui collapsible-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/combobox-demo",
+    "description": "Official shadcn/ui combobox-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/combobox-dropdown-menu",
+    "description": "Official shadcn/ui combobox-dropdown-menu example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/combobox-form",
+    "description": "Official shadcn/ui combobox-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/combobox-popover",
+    "description": "Official shadcn/ui combobox-popover example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/combobox-responsive",
+    "description": "Official shadcn/ui combobox-responsive example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/command",
+    "description": "Official shadcn/ui command ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/command-demo",
+    "description": "Official shadcn/ui command-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/command-dialog",
+    "description": "Official shadcn/ui command-dialog example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.309Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-default",
+    "description": "Official shadcn/ui chart-tooltip-default block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-demo",
+    "description": "Official shadcn/ui chart-tooltip-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-formatter",
+    "description": "Official shadcn/ui chart-tooltip-formatter block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-icons",
+    "description": "Official shadcn/ui chart-tooltip-icons block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-indicator-line",
+    "description": "Official shadcn/ui chart-tooltip-indicator-line block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-indicator-none",
+    "description": "Official shadcn/ui chart-tooltip-indicator-none block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-label-custom",
+    "description": "Official shadcn/ui chart-tooltip-label-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-label-formatter",
+    "description": "Official shadcn/ui chart-tooltip-label-formatter block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-label-none",
+    "description": "Official shadcn/ui chart-tooltip-label-none block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/checkbox",
+    "description": "Official shadcn/ui checkbox ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/checkbox-demo",
+    "description": "Official shadcn/ui checkbox-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/checkbox-disabled",
+    "description": "Official shadcn/ui checkbox-disabled example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/checkbox-form-multiple",
+    "description": "Official shadcn/ui checkbox-form-multiple example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.308Z"
+  },
+  {
+    "name": "shadcn/chart-radar-label-custom",
+    "description": "Official shadcn/ui chart-radar-label-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radar-legend",
+    "description": "Official shadcn/ui chart-radar-legend block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radar-lines-only",
+    "description": "Official shadcn/ui chart-radar-lines-only block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radar-multiple",
+    "description": "Official shadcn/ui chart-radar-multiple block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radar-radius",
+    "description": "Official shadcn/ui chart-radar-radius block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radial-grid",
+    "description": "Official shadcn/ui chart-radial-grid block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radial"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radial-label",
+    "description": "Official shadcn/ui chart-radial-label block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radial"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radial-shape",
+    "description": "Official shadcn/ui chart-radial-shape block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radial"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radial-simple",
+    "description": "Official shadcn/ui chart-radial-simple block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radial"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radial-stacked",
+    "description": "Official shadcn/ui chart-radial-stacked block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radial"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-radial-text",
+    "description": "Official shadcn/ui chart-radial-text block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radial"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-tooltip-advanced",
+    "description": "Official shadcn/ui chart-tooltip-advanced block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-tooltip"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.307Z"
+  },
+  {
+    "name": "shadcn/chart-pie-simple",
+    "description": "Official shadcn/ui chart-pie-simple block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-pie-stacked",
+    "description": "Official shadcn/ui chart-pie-stacked block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-default",
+    "description": "Official shadcn/ui chart-radar-default block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-dots",
+    "description": "Official shadcn/ui chart-radar-dots block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-grid-circle",
+    "description": "Official shadcn/ui chart-radar-grid-circle block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-grid-circle-fill",
+    "description": "Official shadcn/ui chart-radar-grid-circle-fill block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-grid-circle-no-lines",
+    "description": "Official shadcn/ui chart-radar-grid-circle-no-lines block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-grid-custom",
+    "description": "Official shadcn/ui chart-radar-grid-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-grid-fill",
+    "description": "Official shadcn/ui chart-radar-grid-fill block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-grid-none",
+    "description": "Official shadcn/ui chart-radar-grid-none block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-radar-icons",
+    "description": "Official shadcn/ui chart-radar-icons block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-radar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.306Z"
+  },
+  {
+    "name": "shadcn/chart-pie-label",
+    "description": "Official shadcn/ui chart-pie-label block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.305Z"
+  },
+  {
+    "name": "shadcn/chart-pie-label-custom",
+    "description": "Official shadcn/ui chart-pie-label-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.305Z"
+  },
+  {
+    "name": "shadcn/chart-pie-label-list",
+    "description": "Official shadcn/ui chart-pie-label-list block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.305Z"
+  },
+  {
+    "name": "shadcn/chart-pie-legend",
+    "description": "Official shadcn/ui chart-pie-legend block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.305Z"
+  },
+  {
+    "name": "shadcn/chart-pie-separator-none",
+    "description": "Official shadcn/ui chart-pie-separator-none block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.305Z"
+  },
+  {
+    "name": "shadcn/chart-line-label",
+    "description": "Official shadcn/ui chart-line-label block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-line-label-custom",
+    "description": "Official shadcn/ui chart-line-label-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-line-linear",
+    "description": "Official shadcn/ui chart-line-linear block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-line-multiple",
+    "description": "Official shadcn/ui chart-line-multiple block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-line-step",
+    "description": "Official shadcn/ui chart-line-step block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-pie-donut",
+    "description": "Official shadcn/ui chart-pie-donut block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-pie-donut-active",
+    "description": "Official shadcn/ui chart-pie-donut-active block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-pie-donut-text",
+    "description": "Official shadcn/ui chart-pie-donut-text block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-pie-interactive",
+    "description": "Official shadcn/ui chart-pie-interactive block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-pie"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.304Z"
+  },
+  {
+    "name": "shadcn/chart-bar-stacked",
+    "description": "Official shadcn/ui chart-bar-stacked block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.303Z"
+  },
+  {
+    "name": "shadcn/chart-line-default",
+    "description": "Official shadcn/ui chart-line-default block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.303Z"
+  },
+  {
+    "name": "shadcn/chart-line-dots",
+    "description": "Official shadcn/ui chart-line-dots block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.303Z"
+  },
+  {
+    "name": "shadcn/chart-line-dots-colors",
+    "description": "Official shadcn/ui chart-line-dots-colors block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.303Z"
+  },
+  {
+    "name": "shadcn/chart-line-dots-custom",
+    "description": "Official shadcn/ui chart-line-dots-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.303Z"
+  },
+  {
+    "name": "shadcn/chart-line-interactive",
+    "description": "Official shadcn/ui chart-line-interactive block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-line"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.303Z"
+  },
+  {
+    "name": "shadcn/chart-bar-horizontal",
+    "description": "Official shadcn/ui chart-bar-horizontal block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-interactive",
+    "description": "Official shadcn/ui chart-bar-interactive block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-label",
+    "description": "Official shadcn/ui chart-bar-label block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-label-custom",
+    "description": "Official shadcn/ui chart-bar-label-custom block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-mixed",
+    "description": "Official shadcn/ui chart-bar-mixed block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-multiple",
+    "description": "Official shadcn/ui chart-bar-multiple block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-negative",
+    "description": "Official shadcn/ui chart-bar-negative block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.302Z"
+  },
+  {
+    "name": "shadcn/chart-bar-active",
+    "description": "Official shadcn/ui chart-bar-active block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-bar-default",
+    "description": "Official shadcn/ui chart-bar-default block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-bar"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-bar-demo",
+    "description": "Official shadcn/ui chart-bar-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-bar-demo-axis",
+    "description": "Official shadcn/ui chart-bar-demo-axis example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-bar-demo-grid",
+    "description": "Official shadcn/ui chart-bar-demo-grid example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-bar-demo-legend",
+    "description": "Official shadcn/ui chart-bar-demo-legend example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-bar-demo-tooltip",
+    "description": "Official shadcn/ui chart-bar-demo-tooltip example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.301Z"
+  },
+  {
+    "name": "shadcn/chart-area-interactive",
+    "description": "Official shadcn/ui chart-area-interactive block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.300Z"
+  },
+  {
+    "name": "shadcn/chart-area-legend",
+    "description": "Official shadcn/ui chart-area-legend block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.300Z"
+  },
+  {
+    "name": "shadcn/chart-area-linear",
+    "description": "Official shadcn/ui chart-area-linear block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.300Z"
+  },
+  {
+    "name": "shadcn/chart-area-stacked",
+    "description": "Official shadcn/ui chart-area-stacked block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.300Z"
+  },
+  {
+    "name": "shadcn/chart-area-stacked-expand",
+    "description": "Official shadcn/ui chart-area-stacked-expand block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.300Z"
+  },
+  {
+    "name": "shadcn/chart-area-step",
+    "description": "Official shadcn/ui chart-area-step block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.300Z"
+  },
+  {
+    "name": "shadcn/carousel-spacing",
+    "description": "Official shadcn/ui carousel-spacing example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.299Z"
+  },
+  {
+    "name": "shadcn/chart",
+    "description": "Official shadcn/ui chart ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.299Z"
+  },
+  {
+    "name": "shadcn/chart-area-axes",
+    "description": "Official shadcn/ui chart-area-axes block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.299Z"
+  },
+  {
+    "name": "shadcn/chart-area-default",
+    "description": "Official shadcn/ui chart-area-default block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.299Z"
+  },
+  {
+    "name": "shadcn/chart-area-gradient",
+    "description": "Official shadcn/ui chart-area-gradient block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.299Z"
+  },
+  {
+    "name": "shadcn/chart-area-icons",
+    "description": "Official shadcn/ui chart-area-icons block",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "charts",
+      "charts-area"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.299Z"
+  },
+  {
+    "name": "shadcn/carousel",
+    "description": "Official shadcn/ui carousel ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.298Z"
+  },
+  {
+    "name": "shadcn/carousel-api",
+    "description": "Official shadcn/ui carousel-api example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.298Z"
+  },
+  {
+    "name": "shadcn/carousel-demo",
+    "description": "Official shadcn/ui carousel-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.298Z"
+  },
+  {
+    "name": "shadcn/carousel-orientation",
+    "description": "Official shadcn/ui carousel-orientation example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.298Z"
+  },
+  {
+    "name": "shadcn/carousel-plugin",
+    "description": "Official shadcn/ui carousel-plugin example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.298Z"
+  },
+  {
+    "name": "shadcn/carousel-size",
+    "description": "Official shadcn/ui carousel-size example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.298Z"
+  },
+  {
+    "name": "shadcn/calendar-form",
+    "description": "Official shadcn/ui calendar-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.297Z"
+  },
+  {
+    "name": "shadcn/calendar-hijri",
+    "description": "A Persian calendar.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.297Z"
+  },
+  {
+    "name": "shadcn/card",
+    "description": "Official shadcn/ui card ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.297Z"
+  },
+  {
+    "name": "shadcn/card-demo",
+    "description": "Official shadcn/ui card-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.297Z"
+  },
+  {
+    "name": "shadcn/card-with-form",
+    "description": "Official shadcn/ui card-with-form example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.297Z"
+  },
+  {
+    "name": "shadcn/calendar-26",
+    "description": "Date range picker with time",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-27",
+    "description": "Chart filter",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-28",
+    "description": "Input with date picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-29",
+    "description": "Natural language date picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-30",
+    "description": "With little-date",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-31",
+    "description": "With event slots",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-32",
+    "description": "Date picker in a drawer",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-demo",
+    "description": "Official shadcn/ui calendar-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.296Z"
+  },
+  {
+    "name": "shadcn/calendar-20",
+    "description": "With time presets",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.295Z"
+  },
+  {
+    "name": "shadcn/calendar-21",
+    "description": "Custom days and formatters",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.295Z"
+  },
+  {
+    "name": "shadcn/calendar-22",
+    "description": "Date picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.295Z"
+  },
+  {
+    "name": "shadcn/calendar-23",
+    "description": "Date range picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.295Z"
+  },
+  {
+    "name": "shadcn/calendar-24",
+    "description": "Date and Time picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.295Z"
+  },
+  {
+    "name": "shadcn/calendar-25",
+    "description": "Date and Time range picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.295Z"
+  },
+  {
+    "name": "shadcn/calendar-16",
+    "description": "With time picker",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.294Z"
+  },
+  {
+    "name": "shadcn/calendar-17",
+    "description": "With time picker inline",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.294Z"
+  },
+  {
+    "name": "shadcn/calendar-18",
+    "description": "Variable size",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.294Z"
+  },
+  {
+    "name": "shadcn/calendar-19",
+    "description": "With presets",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.294Z"
+  },
+  {
+    "name": "shadcn/calendar-10",
+    "description": "Today button",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.293Z"
+  },
+  {
+    "name": "shadcn/calendar-11",
+    "description": "Start and end of month",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.293Z"
+  },
+  {
+    "name": "shadcn/calendar-12",
+    "description": "Localized calendar",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.293Z"
+  },
+  {
+    "name": "shadcn/calendar-13",
+    "description": "With Month and Year Dropdown",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.293Z"
+  },
+  {
+    "name": "shadcn/calendar-14",
+    "description": "With Booked/Unavailable Days",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.293Z"
+  },
+  {
+    "name": "shadcn/calendar-15",
+    "description": "With Week Numbers",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.293Z"
+  },
+  {
+    "name": "shadcn/calendar-03",
+    "description": "Multiple months with multiple selection.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/calendar-04",
+    "description": "Single month with range selection",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/calendar-05",
+    "description": "Multiple months with range selection",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/calendar-06",
+    "description": "Range selection with minimum days",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/calendar-07",
+    "description": "Range selection with minimum and maximum days",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/calendar-08",
+    "description": "Calendar with disabled days",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/calendar-09",
+    "description": "Calendar with disabled weekends",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.292Z"
+  },
+  {
+    "name": "shadcn/button-outline",
+    "description": "Official shadcn/ui button-outline example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.291Z"
+  },
+  {
+    "name": "shadcn/button-secondary",
+    "description": "Official shadcn/ui button-secondary example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.291Z"
+  },
+  {
+    "name": "shadcn/button-with-icon",
+    "description": "Official shadcn/ui button-with-icon example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.291Z"
+  },
+  {
+    "name": "shadcn/calendar",
+    "description": "Official shadcn/ui calendar ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.291Z"
+  },
+  {
+    "name": "shadcn/calendar-01",
+    "description": "A simple calendar.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.291Z"
+  },
+  {
+    "name": "shadcn/calendar-02",
+    "description": "Multiple months with single selection.",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "calendar",
+      "date"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.291Z"
+  },
+  {
+    "name": "shadcn/button-demo",
+    "description": "Official shadcn/ui button-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.290Z"
+  },
+  {
+    "name": "shadcn/button-destructive",
+    "description": "Official shadcn/ui button-destructive example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.290Z"
+  },
+  {
+    "name": "shadcn/button-ghost",
+    "description": "Official shadcn/ui button-ghost example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.290Z"
+  },
+  {
+    "name": "shadcn/button-icon",
+    "description": "Official shadcn/ui button-icon example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.290Z"
+  },
+  {
+    "name": "shadcn/button-link",
+    "description": "Official shadcn/ui button-link example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.290Z"
+  },
+  {
+    "name": "shadcn/button-loading",
+    "description": "Official shadcn/ui button-loading example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.290Z"
+  },
+  {
+    "name": "shadcn/breadcrumb-ellipsis",
+    "description": "Official shadcn/ui breadcrumb-ellipsis example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.289Z"
+  },
+  {
+    "name": "shadcn/breadcrumb-link",
+    "description": "Official shadcn/ui breadcrumb-link example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.289Z"
+  },
+  {
+    "name": "shadcn/breadcrumb-responsive",
+    "description": "Official shadcn/ui breadcrumb-responsive example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.289Z"
+  },
+  {
+    "name": "shadcn/breadcrumb-separator",
+    "description": "Official shadcn/ui breadcrumb-separator example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.289Z"
+  },
+  {
+    "name": "shadcn/button",
+    "description": "Official shadcn/ui button ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.289Z"
+  },
+  {
+    "name": "shadcn/button-as-child",
+    "description": "Official shadcn/ui button-as-child example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.289Z"
+  },
+  {
+    "name": "shadcn/badge-secondary",
+    "description": "Official shadcn/ui badge-secondary example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.288Z"
+  },
+  {
+    "name": "shadcn/breadcrumb",
+    "description": "Official shadcn/ui breadcrumb ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.288Z"
+  },
+  {
+    "name": "shadcn/breadcrumb-demo",
+    "description": "Official shadcn/ui breadcrumb-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.288Z"
+  },
+  {
+    "name": "shadcn/breadcrumb-dropdown",
+    "description": "Official shadcn/ui breadcrumb-dropdown example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.288Z"
+  },
+  {
+    "name": "shadcn/avatar-demo",
+    "description": "Official shadcn/ui avatar-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.287Z"
+  },
+  {
+    "name": "shadcn/badge",
+    "description": "Official shadcn/ui badge ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.287Z"
+  },
+  {
+    "name": "shadcn/badge-demo",
+    "description": "Official shadcn/ui badge-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.287Z"
+  },
+  {
+    "name": "shadcn/badge-destructive",
+    "description": "Official shadcn/ui badge-destructive example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.287Z"
+  },
+  {
+    "name": "shadcn/badge-outline",
+    "description": "Official shadcn/ui badge-outline example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.287Z"
+  },
+  {
+    "name": "shadcn/aspect-ratio",
+    "description": "Official shadcn/ui aspect-ratio ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.286Z"
+  },
+  {
+    "name": "shadcn/aspect-ratio-demo",
+    "description": "Official shadcn/ui aspect-ratio-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.286Z"
+  },
+  {
+    "name": "shadcn/avatar",
+    "description": "Official shadcn/ui avatar ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.286Z"
+  },
+  {
+    "name": "shadcn/alert-demo",
+    "description": "Official shadcn/ui alert-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.285Z"
+  },
+  {
+    "name": "shadcn/alert-destructive",
+    "description": "Official shadcn/ui alert-destructive example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.285Z"
+  },
+  {
+    "name": "shadcn/alert-dialog",
+    "description": "Official shadcn/ui alert-dialog ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.285Z"
+  },
+  {
+    "name": "shadcn/alert-dialog-demo",
+    "description": "Official shadcn/ui alert-dialog-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.285Z"
+  },
+  {
+    "name": "shadcn/accordion",
+    "description": "Official shadcn/ui accordion ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.284Z"
+  },
+  {
+    "name": "shadcn/accordion-demo",
+    "description": "Official shadcn/ui accordion-demo example",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.284Z"
+  },
+  {
+    "name": "shadcn/alert",
+    "description": "Official shadcn/ui alert ui",
+    "author": "shadcn (https://ui.shadcn.com)",
+    "categories": [
+      "ui",
+      "official",
+      "shadcn"
+    ],
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-09T22:16:40.284Z"
+  },
+  {
     "name": "BankkRoll/supachat",
     "description": "Realtime chat system with full source control, Supabase realtime, admin panel, file uploads. emojis, and more.",
     "author": "Bankk <https://bankkroll.xyz>",
@@ -11,6 +3833,6 @@
       "messaging"
     ],
     "version": "1.0.0",
-    "lastUpdated": "2025-07-08T19:36:34.164Z"
+    "lastUpdated": "2025-07-09T22:16:40.283Z"
   }
 ]
