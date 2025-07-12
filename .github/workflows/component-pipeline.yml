@@ -61,11 +61,36 @@ jobs:
               const fs = require('fs');
               try {
                 const registry = JSON.parse(fs.readFileSync('registry.json', 'utf8'));
-                if (!Array.isArray(registry)) {
-                  console.error('❌ registry.json must be an array');
-                  process.exit(1);
+                
+                // Check if it's a registry collection (has items array) or single item
+                if (registry.items && Array.isArray(registry.items)) {
+                  // This is a registry collection
+                  if (!registry.name) {
+                    console.error('❌ Registry collection missing required field: name');
+                    process.exit(1);
+                  }
+                  if (!registry.homepage) {
+                    console.error('❌ Registry collection missing required field: homepage');
+                    process.exit(1);
+                  }
+                  console.log(\`✅ registry.json is valid registry collection with \${registry.items.length} items\`);
+                } else {
+                  // This is a single registry item or array of items
+                  if (Array.isArray(registry)) {
+                    console.log(\`✅ registry.json is valid array with \${registry.length} components\`);
+                  } else {
+                    // Single item - validate it has required fields
+                    if (!registry.name) {
+                      console.error('❌ Registry item missing required field: name');
+                      process.exit(1);
+                    }
+                    if (!registry.type) {
+                      console.error('❌ Registry item missing required field: type');
+                      process.exit(1);
+                    }
+                    console.log('✅ registry.json is valid single registry item');
+                  }
                 }
-                console.log(\`✅ registry.json is valid with \${registry.length} components\`);
               } catch (error) {
                 console.error('❌ registry.json is not valid JSON:', error.message);
                 process.exit(1);
@@ -97,32 +122,120 @@ jobs:
               try {
                 const metadata = JSON.parse(fs.readFileSync(componentPath, \"utf8\"));
                 
-                // Validate required fields
-                const required = [\"name\", \"type\", \"title\", \"description\"];
-                for (const field of required) {
-                  if (!metadata[field]) {
-                    console.error(\`❌ Missing required field: \${field}\`);
-                    process.exit(1);
-                  }
+                // Validate name field (required)
+                if (!metadata.name) {
+                  console.error(\`❌ Missing required field: name\`);
+                  process.exit(1);
                 }
                 
-                // Validate type field
-                const validTypes = [\"registry:component\", \"registry:block\", \"registry:hook\", \"registry:lib\", \"registry:ui\", \"registry:example\", \"registry:internal\"];
+                // Validate name format: lowercase, letters/numbers/hyphens, starts with letter, ends with letter/number
+                const namePattern = /^[a-z][a-z0-9-]*[a-z0-9]$/;
+                if (!namePattern.test(metadata.name)) {
+                  console.error(\`❌ Invalid name format: \${metadata.name}. Must start with a letter, contain only lowercase letters, numbers, and hyphens, and end with a letter or number\`);
+                  process.exit(1);
+                }
+                
+                // Validate name length (2-50 characters)
+                if (metadata.name.length < 2 || metadata.name.length > 50) {
+                  console.error(\`❌ Invalid name length: \${metadata.name}. Must be between 2 and 50 characters\`);
+                  process.exit(1);
+                }
+                
+                // Check for consecutive hyphens
+                if (metadata.name.includes(\"--\")) {
+                  console.error(\`❌ Invalid name: \${metadata.name}. Cannot contain consecutive hyphens\`);
+                  process.exit(1);
+                }
+                
+                // Validate type field (required)
+                if (!metadata.type) {
+                  console.error(\`❌ Missing required field: type\`);
+                  process.exit(1);
+                }
+                
+                // Validate type field - use exact same types as SCM CLI
+                const validTypes = [\"registry:lib\", \"registry:block\", \"registry:component\", \"registry:ui\", \"registry:hook\", \"registry:theme\", \"registry:page\", \"registry:file\", \"registry:style\"];
                 if (!validTypes.includes(metadata.type)) {
                   console.error(\`❌ Invalid type: \${metadata.type}. Must be one of: \${validTypes.join(\", \")}\`);
                   process.exit(1);
                 }
                 
-                // Validate files exist
+                // Validate title length (max 200)
+                if (metadata.title && metadata.title.length > 200) {
+                  console.error(\`❌ Title too long: \${metadata.title}. Must be 200 characters or less\`);
+                  process.exit(1);
+                }
+                
+                // Validate description length (max 1000)
+                if (metadata.description && metadata.description.length > 1000) {
+                  console.error(\`❌ Description too long: \${metadata.description}. Must be 1000 characters or less\`);
+                  process.exit(1);
+                }
+                
+                // Validate author length (max 200)
+                if (metadata.author && metadata.author.length > 200) {
+                  console.error(\`❌ Author too long: \${metadata.author}. Must be 200 characters or less\`);
+                  process.exit(1);
+                }
+                
+                // Validate dependencies arrays
+                if (metadata.dependencies && (!Array.isArray(metadata.dependencies) || metadata.dependencies.length > 100)) {
+                  console.error(\`❌ Invalid dependencies: must be an array with max 100 items\`);
+                  process.exit(1);
+                }
+                
+                if (metadata.devDependencies && (!Array.isArray(metadata.devDependencies) || metadata.devDependencies.length > 100)) {
+                  console.error(\`❌ Invalid devDependencies: must be an array with max 100 items\`);
+                  process.exit(1);
+                }
+                
+                if (metadata.registryDependencies && (!Array.isArray(metadata.registryDependencies) || metadata.registryDependencies.length > 100)) {
+                  console.error(\`❌ Invalid registryDependencies: must be an array with max 100 items\`);
+                  process.exit(1);
+                }
+                
+                // Validate categories array
+                if (metadata.categories && (!Array.isArray(metadata.categories) || metadata.categories.length > 20)) {
+                  console.error(\`❌ Invalid categories: must be an array with max 20 items\`);
+                  process.exit(1);
+                }
+                
+                // Validate files array
+                if (metadata.files && (!Array.isArray(metadata.files) || metadata.files.length > 50)) {
+                  console.error(\`❌ Invalid files: must be an array with max 50 items\`);
+                  process.exit(1);
+                }
+                
+                // Validate files exist and are readable
                 if (metadata.files && Array.isArray(metadata.files)) {
                   for (const file of metadata.files) {
                     if (!file.path) {
                       console.error(\`❌ File entry missing path field\`);
                       process.exit(1);
                     }
+                    
+                    // Validate file path length
+                    if (file.path.length > 500) {
+                      console.error(\`❌ File path too long: \${file.path}. Must be 500 characters or less\`);
+                      process.exit(1);
+                    }
+                    
                     const filePath = path.join(componentDir, file.path);
                     if (!fs.existsSync(filePath)) {
                       console.error(\`❌ File not found: \${file.path}\`);
+                      process.exit(1);
+                    }
+                    
+                    // Check file size (max 100MB)
+                    try {
+                      const stats = fs.statSync(filePath);
+                      const maxSize = 1024 * 1024 * 100;
+                      if (stats.size > maxSize) {
+                        console.error(\`❌ File too large: \${file.path} (\${stats.size} bytes, max \${maxSize})\`);
+                        process.exit(1);
+                      }
+                    } catch (error) {
+                      console.error(\`❌ File not readable: \${file.path}\`);
                       process.exit(1);
                     }
                   }
@@ -130,9 +243,9 @@ jobs:
                 
                 // Validate version format (semantic versioning)
                 if (metadata.version) {
-                  const semverRegex = /^\d+\.\d+\.\d+(-[a-zA-Z0-9.-]+)?(\+[a-zA-Z0-9.-]+)?$/;
-                  if (!semverRegex.test(metadata.version)) {
-                    console.error(\`❌ Invalid version format: \${metadata.version}. Must follow semantic versioning\`);
+                  const versionPattern = /^\d+\.\d+\.\d+(-[a-zA-Z0-9.-]+)?(\+[a-zA-Z0-9.-]+)?$/;
+                  if (!versionPattern.test(metadata.version)) {
+                    console.error(\`❌ Invalid version format: \${metadata.version}. Must follow semantic versioning (e.g., 1.0.0)\`);
                     process.exit(1);
                   }
                 }
@@ -160,6 +273,11 @@ jobs:
             
             const componentsDir = 'components';
             
+            // Reserved names from SCM CLI utils.ts
+            const reservedNames = [
+              \"node_modules\", \"package\", \"package.json\", \"dist\", \"build\", \"test\", \"tests\", \"docs\", \"examples\", \"main\"
+            ];
+            
             if (fs.existsSync(componentsDir)) {
               const namespaces = fs.readdirSync(componentsDir);
               
@@ -169,9 +287,40 @@ jobs:
                   const componentDirs = fs.readdirSync(namespacePath);
                   
                   for (const componentName of componentDirs) {
-                    // Check for valid naming (lowercase, hyphens only)
-                    if (!/^[a-z0-9-]+$/.test(componentName)) {
-                      console.error(\`❌ Component name '\${componentName}' contains invalid characters. Use only lowercase letters, numbers, and hyphens\`);
+                    // Validate namespace format (from SCM CLI)
+                    const namespacePattern = /^[a-zA-Z0-9_-]+$/;
+                    if (!namespacePattern.test(namespace)) {
+                      console.error(\`❌ Namespace '\${namespace}' contains invalid characters. Use only letters, numbers, hyphens, and underscores\`);
+                      process.exit(1);
+                    }
+                    
+                    if (namespace.length < 1 || namespace.length > 39) {
+                      console.error(\`❌ Namespace '\${namespace}' length invalid. Must be between 1 and 39 characters\`);
+                      process.exit(1);
+                    }
+                    
+                    // Validate component name format (from SCM CLI)
+                    const namePattern = /^[a-z][a-z0-9-]*[a-z0-9]$/;
+                    if (!namePattern.test(componentName)) {
+                      console.error(\`❌ Component name '\${componentName}' format invalid. Must start with a letter, contain only lowercase letters, numbers, and hyphens, and end with a letter or number\`);
+                      process.exit(1);
+                    }
+                    
+                    // Check reserved names
+                    if (reservedNames.includes(componentName.toLowerCase())) {
+                      console.error(\`❌ Component name '\${componentName}' is reserved and cannot be used\`);
+                      process.exit(1);
+                    }
+                    
+                    // Check name length
+                    if (componentName.length < 2 || componentName.length > 50) {
+                      console.error(\`❌ Component name '\${componentName}' length invalid. Must be between 2 and 50 characters\`);
+                      process.exit(1);
+                    }
+                    
+                    // Check for consecutive hyphens
+                    if (componentName.includes(\"--\")) {
+                      console.error(\`❌ Component name '\${componentName}' cannot contain consecutive hyphens\`);
                       process.exit(1);
                     }
                   }
