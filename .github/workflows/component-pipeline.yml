@@ -382,9 +382,16 @@ jobs:
           echo "Mergeable: $MERGEABLE"
           echo "Merge State: $MERGE_STATE"
           
-          if [ "$MERGEABLE" == "MERGEABLE" ] && [ "$MERGE_STATE" == "CLEAN" ]; then
+          # Get more detailed status information
+          echo "=== Detailed PR Status ==="
+          gh pr view ${{ github.event.pull_request.number }} --json mergeable,mergeStateStatus,statusCheckRollup
+          
+          # Check if validation passed (this job depends on validate job)
+          if [ "$MERGEABLE" == "MERGEABLE" ]; then
+            echo "✅ PR is mergeable"
             echo "merge_ready=true" >> $GITHUB_OUTPUT
           else
+            echo "❌ PR is not mergeable"
             echo "merge_ready=false" >> $GITHUB_OUTPUT
           fi
           
@@ -413,14 +420,14 @@ jobs:
 
   # Job 3: Update registry index
   update-index:
-    needs: [validate]
+    needs: [validate, auto-merge]
     runs-on: ubuntu-latest
     permissions:
       contents: write
     if: |
       (github.event_name == 'workflow_dispatch' ||
       github.event_name == 'push' ||
-      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)) &&
+      (github.event_name == 'pull_request' && (github.event.pull_request.merged == true || needs.auto-merge.result == 'success'))) &&
       needs.validate.result == 'success'
     steps:
       - name: Checkout repository
@@ -527,13 +534,13 @@ jobs:
 
   # Job 4: Cleanup branches after merge (only for PRs)
   cleanup:
-    needs: [validate]
+    needs: [validate, auto-merge]
     runs-on: ubuntu-latest
     permissions:
       contents: write
     if: |
       github.event_name == 'pull_request' && 
-      github.event.pull_request.merged == true
+      (github.event.pull_request.merged == true || needs.auto-merge.result == 'success')
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
