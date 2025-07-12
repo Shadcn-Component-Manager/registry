@@ -154,7 +154,7 @@ jobs:
                 }
                 
                 // Validate type field - use exact same types as SCM CLI
-                const validTypes = [\"registry:lib\", \"registry:block\", \"registry:example\", \"registry:component\", \"registry:ui\", \"registry:hook\", \"registry:theme\", \"registry:page\", \"registry:file\", \"registry:style\"];
+                const validTypes = [\"registry:lib\", \"registry:block\", \"registry:internal\", \"registry:example\", \"registry:component\", \"registry:ui\", \"registry:hook\", \"registry:theme\", \"registry:page\", \"registry:file\", \"registry:style\"];
                 if (!validTypes.includes(metadata.type)) {
                   console.error(\`❌ Invalid type: \${metadata.type}. Must be one of: \${validTypes.join(\", \")}\`);
                   process.exit(1);
@@ -367,6 +367,8 @@ jobs:
           
       - name: Check if PR is mergeable
         id: check-mergeable
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           # Check if PR is mergeable and all checks pass
           MERGEABLE=$(gh pr view ${{ github.event.pull_request.number }} --json mergeable,mergeStateStatus --jq '.mergeable')
@@ -383,6 +385,8 @@ jobs:
           
       - name: Auto merge PR
         if: steps.check-mergeable.outputs.merge_ready == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           echo "🤖 Auto-merging PR #${{ github.event.pull_request.number }}"
           gh pr merge ${{ github.event.pull_request.number }} --merge --delete-branch
@@ -390,11 +394,15 @@ jobs:
           
       - name: Comment merge status
         if: steps.check-mergeable.outputs.merge_ready == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} --body "🤖 Auto-merged! Component will be available in the registry shortly."
           
       - name: Comment merge blocked
         if: steps.check-mergeable.outputs.merge_ready == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} --body "⚠️ Auto-merge blocked. Please check the validation status and resolve any issues."
 
