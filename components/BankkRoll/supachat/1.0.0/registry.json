@@ -1,4 +1,5 @@
 {
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "supachat",
   "type": "registry:block",
   "title": "Supabase-Powered Realtime Chat",
@@ -158,6 +159,6 @@
     "messaging"
   ],
   "version": "1.0.0",
-  "publishedAt": "2025-07-07T22:58:59.306Z",
+  "publishedAt": "2025-07-12T17:21:32.126Z",
   "publisher": "BankkRoll"
 }
