@@ -581,7 +581,7 @@ Please review the validation errors above and fix the issues before resubmitting
 - Validate registry.json schema
 - Verify file sizes are under 100MB"
 
-    update-index:
+  update-index:
     needs: [validate, auto-merge]
     runs-on: ubuntu-latest
     permissions:
