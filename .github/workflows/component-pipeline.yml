@@ -560,9 +560,9 @@ jobs:
           
           gh pr comment ${{ github.event.pull_request.number }} --body "✅ **Component Published Successfully**
 
-**Component:** ${USERNAME}/${COMPONENT_NAME}
-**Status:** Published and available in registry
-**Install:** \`${INSTALL_CMD}\`
+Component: ${USERNAME}/${COMPONENT_NAME}
+Status: Published and available in registry
+Install: \`${INSTALL_CMD}\`
 
 Your component is now live and ready for installation by the community!"
           
@@ -575,7 +575,7 @@ Your component is now live and ready for installation by the community!"
 
 Please review the validation errors above and fix the issues before resubmitting.
 
-**Common fixes:**
+Common fixes:
 - Check component naming conventions
 - Ensure all referenced files exist
 - Validate registry.json schema
@@ -726,7 +726,7 @@ Please review the validation errors above and fix the issues before resubmitting
         run: |
           echo "ℹ️ No changes detected in registry.json - skipping commit"
 
-    cleanup:
+  cleanup:
     needs: [validate, auto-merge]
     runs-on: ubuntu-latest
     permissions:
