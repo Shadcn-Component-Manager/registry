@@ -154,7 +154,7 @@ jobs:
                 }
                 
                 // Validate type field - use exact same types as SCM CLI
-                const validTypes = [\"registry:lib\", \"registry:block\", \"registry:component\", \"registry:ui\", \"registry:hook\", \"registry:theme\", \"registry:page\", \"registry:file\", \"registry:style\"];
+                const validTypes = [\"registry:lib\", \"registry:block\", \"registry:example\", \"registry:component\", \"registry:ui\", \"registry:hook\", \"registry:theme\", \"registry:page\", \"registry:file\", \"registry:style\"];
                 if (!validTypes.includes(metadata.type)) {
                   console.error(\`❌ Invalid type: \${metadata.type}. Must be one of: \${validTypes.join(\", \")}\`);
                   process.exit(1);
@@ -333,11 +333,14 @@ jobs:
           echo "components_naming_valid=true" >> $GITHUB_OUTPUT
 
       - name: Validation Summary
+        id: validation-summary
         run: |
           if [ "${{ steps.validate-registry.outputs.registry_valid }}" == "true" ] && [ "${{ steps.validate-components.outputs.components_valid }}" == "true" ] && [ "${{ steps.validate-naming.outputs.components_naming_valid }}" == "true" ]; then
             echo "✅ All validations passed"
+            echo "validation_passed=true" >> $GITHUB_OUTPUT
           else
             echo "❌ Validation failed"
+            echo "validation_passed=false" >> $GITHUB_OUTPUT
             exit 1
           fi
 
@@ -402,9 +405,10 @@ jobs:
     permissions:
       contents: write
     if: |
-      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_dispatch' ||
       github.event_name == 'push' ||
-      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)) &&
+      needs.validate.result == 'success'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
