@@ -348,6 +348,7 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      checks: write
     if: |
       github.event_name == 'pull_request' && 
       github.event.action != 'closed'
