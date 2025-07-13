@@ -558,28 +558,30 @@ jobs:
           USERNAME="${{ github.event.pull_request.user.login }}"
           INSTALL_CMD="scm add ${USERNAME}/${COMPONENT_NAME}"
           
-          gh pr comment ${{ github.event.pull_request.number }} --body "✅ **Component Published Successfully**
+          gh pr comment ${{ github.event.pull_request.number }} --body |
+            ✅ **Component Published Successfully**
 
-Component: ${USERNAME}/${COMPONENT_NAME}
-Status: Published and available in registry
-Install: \`${INSTALL_CMD}\`
+            **Component:** `${USERNAME}/${COMPONENT_NAME}`
+            **Status:** Published and available in registry
+            **Install:** `${INSTALL_CMD}`
 
-Your component is now live and ready for installation by the community!"
+            Your component is now live and ready for installation by the community! 🚀
           
       - name: ❌ Comment merge blocked
         if: steps.check-mergeable.outputs.merge_ready == 'false'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh pr comment ${{ github.event.pull_request.number }} --body "❌ **Validation Failed**
+          gh pr comment ${{ github.event.pull_request.number }} --body |
+            ❌ **Validation Failed**
 
-Please review the validation errors above and fix the issues before resubmitting.
+            Please review the validation errors above and fix the issues before resubmitting.
 
-Common fixes:
-- Check component naming conventions
-- Ensure all referenced files exist
-- Validate registry.json schema
-- Verify file sizes are under 100MB"
+            **Common fixes:**
+            - Check component naming conventions
+            - Ensure all referenced files exist
+            - Validate `registry.json` schema
+            - Verify file sizes are under 100MB
 
   update-index:
     needs: [validate, auto-merge]
